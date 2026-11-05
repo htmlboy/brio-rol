@@ -55,41 +55,31 @@ La emisión del certificado y la propagación DNS pueden tardar después de guar
 - [Configurar un dominio personalizado de GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 - [Gestionar registros DNS en Cloudflare](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/).
 
-## Sistema y aplicación online: Netlify
+## Sistema y Online: GitHub Pages
 
-La landing `briorol.com` permanece en GitHub Pages. Sistema y la aplicación de juego mantienen sus dos proyectos existentes de Netlify.
+Decisión actual: ambos sitios se publicarán también en GitHub Pages, retirando Netlify del alojamiento y de las redirecciones. Las instrucciones anteriores para apuntar los subdominios a Netlify quedan sustituidas.
 
-Los dominios por defecto se han comprobado por HTTPS: cada uno sirve el mismo título y archivo JavaScript de producción que su dominio actual.
-
-| Proyecto | Dominio nuevo en Netlify | CNAME en Cloudflare | Target | Proxy |
+| Sitio | Repositorio de publicación | Dominio de Pages | CNAME en Cloudflare | Target |
 | --- | --- | --- | --- | --- |
-| Sistema | `sistema.briorol.com` | `sistema` | `sistemabrio.netlify.app` | DNS only |
-| Online | `online.briorol.com` | `online` | `online-sistemabrio.netlify.app` | DNS only |
+| Sistema | `htmlboy/brio-sistema` | `sistema.briorol.com` | `sistema` | `htmlboy.github.io` |
+| Online | `htmlboy/brio-online` | `online.briorol.com` | `online` | `htmlboy.github.io` |
 
-En el panel de cada proyecto de Netlify, abrir la gestión de dominios y añadir su dominio nuevo. Crear después el CNAME correspondiente en Cloudflare, esperar al certificado y comprobar que la aplicación y sus rutas funcionan. A continuación se puede fijar el nuevo dominio como principal y activar las redirecciones preparadas de las direcciones antiguas.
+Los dos repositorios de publicación contienen solo compilaciones, sin mapas de código fuente. El código fuente de las aplicaciones permanece privado. Firebase sigue proporcionando autenticación, salas, presencia y tiradas.
 
-Los destinos de las redirecciones son `sistemabrio.com` → `sistema.briorol.com` y `online.sistemabrio.com` → `online.briorol.com`, conservando las rutas. Esto no cambia los registros de la raíz `briorol.com`, de `www` ni de Ruido.
+1. Crear los dos repos públicos y dar acceso a la integración de GitHub si es necesario. La integración no puede crearlos por sí misma: GitHub devuelve 403.
+2. Subir las compilaciones preparadas y configurar cada repo en **Settings → Pages → Source: GitHub Actions**.
+3. Asignar los dominios de la tabla en **Custom domain** de los repos correspondientes.
+4. Crear o sustituir los CNAME `sistema` y `online` en Cloudflare con el target `htmlboy.github.io`, **DNS only**. Los registros actuales de la raíz, www y Ruido se mantienen.
+5. Esperar los certificados de Pages, activar **Enforce HTTPS** y comprobar reglas, PDFs, enlaces directos a salas y funcionamiento de dos clientes.
 
-El descriptor gráfico de la aplicación es online. Las propuestas anteriores juega, sala y salas quedan sustituidas para esta migración.
+Las páginas conocidas tienen entradas propias; las rutas dinámicas de salas se recuperan mediante el documento 404 y una restauración de la ruta antes de arrancar React. No dependen de redirecciones de Netlify.
 
-## Pasos en Netlify y Cloudflare
+## Direcciones antiguas y retirada de Netlify
 
-1. Abrir el proyecto **sistemabrio** en Netlify, entrar en **Domain management / Production domains** y añadir `sistema.briorol.com`.
-2. Abrir **online-sistemabrio** y añadir `online.briorol.com` del mismo modo.
-3. En Cloudflare, zona `briorol.com`, crear los dos CNAME de la tabla anterior con **DNS only**. Un CNAME se escribe sin protocolo ni ruta.
-4. Esperar a que ambos dominios nuevos sirvan la aplicación correspondiente por HTTPS con certificado válido. Comprobar también `/reglas`, descargas y acceso directo a una sala.
-5. Establecer los dominios nuevos como principales en Netlify, conservando los anteriores como alias. Comprobar las redirecciones automáticas y activar las reglas de redirección del repositorio cuando los destinos estén operativos.
+La zona `sistemabrio.com` usa actualmente servidores NS1 de Netlify. Para eliminar también esa dependencia y conservar enlaces antiguos, se propone añadir el dominio antiguo a Cloudflare, importar sus DNS, cambiar los nameservers en el registrador y configurar las redirecciones en el borde de Cloudflare.
 
-Los dos proyectos de Netlify siguen alojando las aplicaciones. Cambiar el dominio no crea un alojamiento nuevo. La landing principal y Ruido continúan en GitHub Pages.
+Los destinos serán `sistemabrio.com` y `www.sistemabrio.com` → `https://sistema.briorol.com`, y `online.sistemabrio.com` → `https://online.briorol.com`, conservando rutas y consultas. Los registros de los hosts que redirigen deben estar proxied y las reglas deben funcionar por HTTP y HTTPS antes de retirar los proyectos y la zona antigua de Netlify.
 
-## Registro, DNS y redirección son servicios diferentes
+La renovación del dominio y el alojamiento son servicios separados. La dirección proporcionada `.netlify.app` depende del proyecto, no de una renovación propia. Si caduca `sistemabrio.com`, se pierden también sus redirecciones. Cambiar DNS a DreamHost no sirve por sí solo una redirección HTTP ni un certificado; su servicio básico de Redirect tampoco conserva alojamiento HTTPS en el origen.
 
-Un dominio propio puede renovarse en un registrador y usar DNS o alojamiento de otros proveedores. La dirección proporcionada `nombre.netlify.app` no es un dominio propio que deba renovarse; depende de que el proyecto siga existiendo.
-
-Las DNS de DreamHost solo serían efectivas si el dominio utiliza sus servidores DNS. Cambiar un CNAME no devuelve una redirección HTTP: para conservar las direcciones antiguas hace falta un servicio que responda en ellas, con certificado para HTTPS.
-
-Para dejar Netlify completamente, primero habrá que trasladar el alojamiento de Sistema y Online. Después las direcciones antiguas podrán redirigirse desde otro servicio. Mantener el dominio registrado es necesario mientras se quiera conservar la redirección; al caducar no se conserva esa función.
-
-DreamHost ofrece un servicio de redirección, pero su modalidad básica retira el alojamiento del dominio y no resuelve por sí sola las entradas HTTPS del dominio de origen. La alternativa requiere alojar el dominio con certificado y configurar la redirección allí, o utilizar otro servicio de redirección con HTTPS. No se ha solicitado ni ejecutado una baja de Netlify en esta fase.
-
-Referencias: [redirección en DreamHost](https://help.dreamhost.com/hc/en-us/articles/215455377-Redirect-a-domain) y [limitación de HTTPS del servicio Redirect](https://help.dreamhost.com/hc/en-us/articles/115003505112-Force-your-site-to-redirect-to-HTTPS-SSL).
+No se ha dado de baja ningún proyecto de Netlify antes de comprobar los reemplazos.

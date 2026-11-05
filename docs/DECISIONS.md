@@ -89,3 +89,11 @@ Fecha: 2026-11-05. Estado: documentación de la migración actualizada.
 La nueva dirección no cambia el alojamiento de Sistema y Online: ambas aplicaciones siguen en sus proyectos actuales de Netlify. La gestión de DNS y la renovación de un dominio propio son servicios separados. Prescindir de Netlify requiere trasladar antes las aplicaciones y disponer de un servicio que mantenga las redirecciones antiguas con HTTPS. La redirección se pierde al caducar el dominio de origen. No se realiza ninguna baja de alojamiento en esta fase.
 
 La revisión de material publicado queda documentada en `SECURITY-REVIEW.md`, con alcance, resultados y límites; no incluye valores de credenciales.
+
+## D-014 — Sistema y Online también en GitHub Pages
+
+Fecha: 2026-11-05. Estado: migración preparada; configuración de cuenta pendiente.
+
+Se sustituye la migración de dominios sobre Netlify por la publicación de ambas aplicaciones en GitHub Pages, con dos repositorios de compilaciones y los dominios sistema.briorol.com y online.briorol.com. El código fuente permanece privado y Firebase continúa como backend. Los CNAME de ambos subdominios apuntarán a htmlboy.github.io. Las instrucciones anteriores con targets netlify.app quedan sustituidas.
+
+La retirada completa de Netlify incluye trasladar la zona DNS antigua y sus redirecciones a un servicio independiente, manteniendo los enlaces antiguos mientras el dominio siga registrado. La integración no puede crear los nuevos repos ni administrar Pages; las compilaciones y comprobaciones se preparan mientras el titular configura esos recursos.
