@@ -1,39 +1,52 @@
-# Brío — Prueba de arquitectura de marca
+# Familia Brío — Logotipos y uso
 
-Estado: hipótesis gráfica para valorar en conjunto. No es una decisión final de nombres, un renombrado de aplicaciones ni un cambio de dominios.
+Estado: refinamiento gráfico de la dirección de familia elegida por el autor. Esta entrega no modifica las webs ni despliega cambios.
 
-## Dos relaciones
+## Los cinco logotipos
 
-- **Brío / rol**, **Brío / sistema**, **Brío / salas**: Brío es el nombre dominante; el segundo nivel describe el ámbito. Los tres conservan el dibujo original de Brío, a igual escala, con descriptores en minúsculas.
-- **ruido / by Brío** y **dados / by Brío**: la herramienta tiene nombre propio. Brío firma su procedencia con una presencia subordinada.
+- **Brío / rol:** marca de autor.
+- **Brío / sistema:** sistema de juego.
+- **Brío / online:** aplicación de juego, con destino acordado `online.briorol.com`.
+- **ruido:** herramienta independiente.
+- **dados:** nombre para una herramienta futura; no se presenta como producto publicado.
 
-Salas es una propuesta de nombre. Dados se muestra como exploración de una futura herramienta independiente; no se presenta como un producto publicado.
+Online sustituye a la propuesta anterior Salas. Ruido y Dados no incorporan «by Brío» ni el logotipo matriz dentro de sus archivos finales. La procedencia se puede identificar por separado en sus webs.
 
-## Proporciones y anclaje
+## Proporciones y espaciado
 
-Los tres Brío comparten exactamente el mismo dibujo, tamaño y caja. Los descriptores usan el mismo cuerpo tipográfico y la misma línea de base. Se alinean a la derecha del nombre para hacer visible que son un segundo nivel y mantener un punto de anclaje común, aunque su longitud cambie. Esta es una interpretación óptica de la idea propuesta, no una reproducción de los espacios de un texto.
+Las tres firmas Brío comparten el dibujo original, la escala, la caja y la línea de base del descriptor. «rol», «sistema» y «online» están en minúsculas, con el mismo cuerpo y peso. Se alinean a la derecha para mantener un anclaje común aunque cambie su longitud. No se cambia el tamaño de «sistema» para igualar su ancho al de «rol».
 
-Ruido y Dados comparten altura de letras y peso de dibujo. Dados ocupa más ancho por su longitud, sin reducir su altura para meterlo en una caja idéntica a Ruido. La firma «by Brío» tiene una altura aproximada del 21% de la altura total de las letras del nombre. El dibujo de Brío es el original reducido; «by» queda todavía en un nivel menor.
+Ruido y Dados comparten altura de letra, peso y formas de d y o. Dados ocupa más ancho, sin reducir su altura para encajarlo en la misma caja que Ruido. Se conserva el espaciado óptico de la dirección aceptada: las curvas y los trazos rectos no exigen distancias numéricas idénticas.
 
-La firma se ancla también a la derecha. Así se repite una regla de composición, pero no se pone una copia grande del sello matriz debajo de cada herramienta.
+Los viewBoxes están ajustados al dibujo, sin añadir una reserva invisible ni deformar los nombres. La zona de respeto se aplica en la composición: como referencia inicial, al menos la mitad de la altura del descriptor alrededor de una firma Brío y un grosor de asta alrededor de Ruido y Dados. El contexto final puede requerir más espacio.
 
 ## Dibujo y procedencia
 
-El logotipo original de Brío se conserva intacto. Los descriptores y la palabra «by» usan IBM Plex Sans, peso 450, convertida a contornos. La fuente está incluida en el repositorio con SIL OFL; esos textos no se presentan como un alfabeto dibujado de cero.
+- Brío conserva el contorno original del logotipo.
+- Los tres descriptores usan IBM Plex Sans, peso 450, convertida a contornos. La fuente está incluida en el repositorio con SIL OFL; no se presenta como un alfabeto dibujado de cero.
+- Ruido y Dados utilizan el dibujo vectorial propio de minúsculas de la propuesta de familia, compartiendo proporciones y construcción.
+- Los SVG son autónomos, sin texto editable, fuentes externas ni imágenes enlazadas.
 
-Ruido y Dados utilizan un dibujo vectorial propio de minúsculas, compartiendo proporciones, curvas y formas de d y o. No se añaden iconos ni dados genéricos. La diferencia entre ambas relaciones se apoya en la jerarquía del nombre y de la firma.
+## Positivo y negativo
 
-## Reducción
+Cada logo tiene dos archivos de igual geometría: positivo tinta `#252720` y negativo claro `#F3EFE4`. Los colores pueden adaptarse en composición manteniendo una sola tinta y contraste suficiente. No se altera la relación entre Brío y su descriptor ni se estiran los dibujos.
 
-En pantalla, 280 px de ancho es un mínimo orientativo prudente para las firmas completas de las herramientas; se debe confirmar en el soporte final. No es una medida universal para impresión. Cuando «by Brío» resulte demasiado pequeño, están disponibles `ruido-name.svg` y `dados-name.svg`: nombres sin firma para contextos donde la procedencia ya esté identificada, por ejemplo una navegación dentro de la familia. No sustituyen la firma completa en una primera presentación sin contexto.
+`brio.svg` y `brio-reverse.svg` permiten colocar el logotipo matriz en un lugar independiente de la web. El muestrario incluye «Un proyecto de» acompañado por Brío enlazado, como ejemplo de firma de origen; no forma parte de los logos de Ruido o Dados.
 
-## Archivos
+## Tamaños de referencia
 
-- `design/family/index.html`: lámina comparativa breve.
-- `design/family/brio-rol.svg`, `brio-sistema.svg`, `brio-salas.svg`: firmas con descriptor.
-- `design/family/ruido.svg`, `dados.svg`: nombres con firma de procedencia.
-- Archivos `*-reverse.svg`: versiones de una tinta clara sobre fondo oscuro.
-- `design/family/previews/family-desktop.png`: comparación completa con alturas coherentes.
-- `design/family/previews/family-mobile.png`: presentación en pantalla estrecha.
+El muestrario muestra las tres firmas Brío a 120 px de ancho y Ruido y Dados a 96 px, sin ampliar esas capturas. Son referencias orientativas para pantalla, no mínimos universales de impresión. Deben confirmarse en el soporte final, con su densidad de píxeles y contraste.
 
-Los recursos publicados actualmente y las páginas de las aplicaciones no se modifican en esta exploración.
+No se añaden variantes pequeñas con otro dibujo: las contraformas se mantienen abiertas en estas pruebas y no hay una firma diminuta que deba desaparecer. Tampoco se pretende convertir un nombre completo en un favicon de 16 px. Una necesidad real por debajo de estos tamaños requerirá una adaptación específica.
+
+## Entrega
+
+Los doce SVG canónicos están directamente en `design/family/`: positivo y negativo de los cinco logos, más Brío autónomo en ambas versiones. El índice de archivos está en `design/family/README.md`.
+
+- `design/family/index.html`: muestrario final de trabajo.
+- `design/family/previews/family-overview.png`: lámina corta de los cinco logos.
+- `design/family/previews/family-negative.png`: versión en negativo.
+- `design/family/previews/family-sizes.png`: tamaños reales.
+- `design/family/previews/web-origin.png`: firma web separada.
+
+`archive/by-brio/` conserva las anteriores firmas integradas y `archive/salas/` la denominación anterior. No forman parte de los archivos canónicos. Las páginas y logos publicados permanecen sin cambios en esta entrega.

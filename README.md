@@ -4,13 +4,14 @@ El espacio de proyectos de rol de Javier Usobiaga: módulos, sistemas y herramie
 
 Landing temporal publicada en **https://briorol.com/**.
 
-Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Sistema Brío, Sala —nombre propuesto de la aplicación de juego compartido— y Ruido.
+Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Brío sistema, Brío online, Ruido y la herramienta futura Dados.
 
 ## Prueba de familia de marca
 
-La exploración actual compara Brío / rol, Brío / sistema y Brío / salas con ruido / by Brío y dados / by Brío. Es una prueba gráfica; la web temporal y los productos conservan sus nombres y logotipos publicados.
+La entrega gráfica reúne Brío / rol, Brío / sistema y Brío / online, junto con ruido y dados como logos independientes. La firma de Brío se coloca aparte en sus webs. La landing temporal conserva su presentación mientras se integra la identidad.
 
-- [Lámina de los cinco casos](design/family/previews/family-desktop.png).
+- [Descargar SVG y guía](deliverables/brio-logos.zip).
+- [Lámina de los cinco logos](design/family/previews/family-overview.png).
 - [Muestrario navegable](design/family/index.html), accesible en `/design/family/` al servir esta rama.
 - [Arquitectura, proporciones y procedencia](docs/BRAND-ARCHITECTURE.md).
 - [Revisión anterior del logotipo](docs/IDENTITY-REVIEW.md).

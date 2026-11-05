@@ -32,8 +32,18 @@ La primera ampliación del logotipo concatena BRÍO y ROL con el mismo peso y pr
 
 La decisión final de identidad sigue pendiente de valorar el resultado gráfico.
 
-## Prueba de arquitectura de familia
+## Familia de trabajo
 
-La siguiente exploración compara cinco firmas: Brío / rol, Brío / sistema, Brío / salas, ruido / by Brío y dados / by Brío. Se respetan las minúsculas de los descriptores y los nombres independientes.
+La dirección aceptada distingue cinco logos: Brío / rol, Brío / sistema, Brío / online, ruido y dados. Los tres primeros usan Brío como marca principal con un descriptor en minúsculas. Ruido y Dados tienen logos independientes.
 
-La prueba debe permitir valorar dos relaciones: proyectos encabezados por la marca Brío y herramientas con nombre propio que muestran su origen. Las proporciones de la firma de origen y de los descriptores tienen reglas comunes. No se da por cerrada la arquitectura hasta revisar el conjunto dibujado. Dados es una exploración futura; la prueba no anuncia su disponibilidad ni cambia los nombres o destinos publicados.
+La procedencia de las herramientas se identifica con Brío en otro punto de sus webs, por ejemplo un enlace en el pie. «by Brío» no forma parte de los logos de Ruido y Dados.
+
+## Entrega de esta fase
+
+- SVG principales y negativos de los cinco logos, con contornos autocontenidos.
+- Brío sin descriptor para firma de procedencia.
+- Espaciados, proporciones y cajas revisados; las variantes pequeñas deben responder a un problema óptico comprobado.
+- Lámina general separada de las pruebas de tamaño y del ejemplo de firma web.
+- Paquete descargable con SVG y guía breve, incluyendo derechos y procedencia tipográfica.
+
+Dados sigue siendo una herramienta futura. el destino acordado de la aplicación es `online.briorol.com`. La migración de hosting se prepara por separado; esta entrega gráfica no activa las redirecciones.

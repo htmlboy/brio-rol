@@ -67,3 +67,17 @@ Fecha: 2026-11-05. Estado: exploración gráfica para revisión.
 Se compara Brío como nombre principal con los descriptores en minúsculas rol, sistema y salas, y dos herramientas con nombre propio: ruido y dados, firmadas con by Brío. Los descriptores comparten escala y anclaje derecho; los nombres independientes comparten construcción y altura de dibujo. La firma de origen se subordina al nombre de la herramienta.
 
 La prueba usa el Brío original, descriptores en Plex Sans convertidos a contornos y nombres independientes dibujados como parte de la exploración. Se entregan positivos, negativos y variantes de nombre solo. No se renombra la aplicación publicada, no se anuncia Dados como disponible y no se sustituyen los logos de la web temporal. Referencia: `BRAND-ARCHITECTURE.md`.
+
+## D-011 — Herramientas con logo independiente y procedencia separada
+
+Fecha: 2026-11-05. Estado: dirección aceptada, preparación de archivos de entrega.
+
+La familia mantiene Brío con los descriptores rol, sistema y salas. Ruido y Dados utilizan su nombre como logotipo independiente. Se elimina by Brío de la firma gráfica de ambas herramientas; la procedencia se resolverá mediante un enlace con el logo de Brío en otro punto de sus webs.
+
+La entrega de esta fase afina proporciones, espaciado y variantes de uso, documenta tamaños orientativos y ofrece SVG principales y negativos. Los cambios de las páginas de los productos se harán en una aplicación posterior de la identidad.
+
+## D-012 — Conservar online como descriptor y dominio
+
+Fecha: 2026-11-05. Estado: aceptada.
+
+Se sustituye la exploración salas por online en la familia gráfica. La aplicación utilizará `online.briorol.com`, conservando el término que ya aparece en su dirección original. Sistema mantiene el destino previsto `sistema.briorol.com`. La landing principal en `briorol.com` sigue en GitHub Pages; las dos aplicaciones permanecen en sus sitios de Netlify. La configuración y las redirecciones se preparan en el repositorio correspondiente.

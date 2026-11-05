@@ -50,3 +50,9 @@ El acceso HTTP todavía permanece en HTTP y la dirección anterior de GitHub Pag
 ## Prueba de familia
 
 El muestrario `design/family/` se comprobó en Chromium a 320, 390, 768 y 1440 px, sin desbordamiento horizontal y con las imágenes disponibles. Los SVG se parsean y contienen los contornos de las letras sin depender de una fuente instalada ni de recursos externos. Los tres Brío comparten tamaño de dibujo y los nombres independientes se comparan con la misma altura. Las capturas corresponden a una prueba de identidad, no a modificaciones de los productos publicados.
+
+## Entrega de logos independientes y descriptor online
+
+Se verifican doce SVG canónicos: cinco logos y Brío sin descriptor, con positivos y negativos. Los archivos de Ruido y Dados no incluyen by Brío; las exploraciones anteriores quedan archivadas. La versión vigente sustituye salas por online.
+
+El muestrario se revisó en Chromium a 320, 390, 768 y 1440 px, con imágenes disponibles y sin desbordamiento. Las capturas de tamaños muestran las firmas Brío a 120 px de ancho y los nombres independientes a 96 px. El paquete `deliverables/brio-logos.zip` contiene los doce SVG, guía de uso y avisos de derechos; se comprobó que sus archivos coinciden con los canónicos.
