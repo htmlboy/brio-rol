@@ -126,7 +126,7 @@ La primera aplicación seguía dependiendo de un slogan, una ilustración de amb
 
 ## D-019 — Firma de autor y contacto
 
-Fecha: 2026-11-05. Estado: preparado para publicación.
+Fecha: 2026-11-05. Estado: aplicado y enviado a publicación.
 
 La firma pública es Javier U. El contacto es el usuario de Discord `javier_u`, confirmado por el autor. Se retiran la web profesional y el correo de las superficies públicas actuales. Se presenta el nombre de usuario sin inventar un enlace de perfil. Los créditos propios y la licencia usan el seudónimo; se conservan los derechos de terceros. No se reescribe el historial de Git.
 

@@ -34,3 +34,5 @@ Los despliegues de Sistema, Online y Brío Rol terminaron correctamente el 2026-
 ## Segunda revisión crítica de Sistema
 
 Se descarta el tratamiento de portada de la primera entrega: titular de campaña en mayúsculas, tipografía condensada e ilustración de un portal. El texto presenta el uso del sistema directamente y un ejemplo de las reglas sustituye la decoración: Destreza 3, dificultad 4, resultados 4/2/5 y dos éxitos. Se usa Plex en toda la web. Se eliminan numeraciones sin secuencia real, etiquetas repetidas y flechas de enlaces internos. La revisión no cambia mecánicas ni PDFs. Las capturas se actualizan con esta segunda aplicación.
+
+Tras revisión del autor, la portada de Sistema se limita a presentación y accesos. El ejemplo y las explicaciones quedan dentro de las reglas. La firma es Javier U y el contacto público es el usuario de Discord `javier_u`.
