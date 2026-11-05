@@ -1,6 +1,6 @@
 # Aplicación de la familia a las webs
 
-Estado: propuesta implementada para revisión visual.
+Estado: primera aplicación publicada; revisión visual abierta.
 
 ## Objetivo
 
@@ -26,3 +26,7 @@ Capturas de escritorio y móvil, ausencia de desbordamientos, funcionamiento del
 ## Primera entrega
 
 Capturas locales: [portada Sistema](../previews/sistema-desktop.png), [móvil](../previews/sistema-mobile.png), [reglas](../previews/rules-desktop.png) y [directorio](../previews/directory-desktop.png). La revisión se implementa en portada, reglas, materiales y navegación; los PDFs conservan su diseño anterior. Se comprobaron las tres páginas a 320, 390, 768 y 1440 px, navegación móvil, índice, fuentes locales y los dos PDFs. Los textos de listas y tabla de las reglas se conservan íntegros.
+
+## Publicación
+
+Los despliegues de Sistema, Online y Brío Rol terminaron correctamente el 2026-11-05. Brío Rol incorpora los logos mediante el PR #4. Sistema publica el rediseño completo; Online incorpora la firma y conserva sus temas e interfaz. La propuesta de diseño y estas capturas siguen abiertas a revisión. GitHub todavía indica certificado pendiente para Sistema y Online; esto se registra por separado y no se presenta como HTTPS validado.

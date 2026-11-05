@@ -114,6 +114,6 @@ Se descarta el hosting de DreamHost para los dominios antiguos. La alternativa g
 
 ## D-017 — Aplicar la familia a Sistema y al directorio
 
-Fecha: 2026-11-05. Estado: propuesta implementada, revisión visual en curso.
+Fecha: 2026-11-05. Estado: primera aplicación publicada, revisión visual en curso.
 
 Se recuperan los SVG finales de la familia y se aplican al directorio Brío Rol, Sistema y la firma de Online. Sistema es la primera aplicación completa: composición editorial de reglas, tipografía local, papel, tinta y rojo, con ilustración vectorial propia en lugar de renders de géneros distintos. Se mantienen las mecánicas, los PDFs y la interfaz de las salas. Ruido queda como siguiente aplicación, una vez contrastada esta dirección. Referencia: `specs/03-family-web.md`.
