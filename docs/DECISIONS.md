@@ -131,3 +131,11 @@ Fecha: 2026-11-05. Estado: aplicado y enviado a publicación.
 La firma pública es Javier U. El contacto es el usuario de Discord `javier_u`, confirmado por el autor. Se retiran la web profesional y el correo de las superficies públicas actuales. Se presenta el nombre de usuario sin inventar un enlace de perfil. Los créditos propios y la licencia usan el seudónimo; se conservan los derechos de terceros. No se reescribe el historial de Git.
 
 La portada de Sistema presenta brevemente el producto y los accesos a reglas, materiales y Online. El ejemplo de tirada queda en las reglas, no en portada.
+
+## D-020 — Separar proyectos por composición y espacio
+
+Fecha: 2026-11-05. Estado: implementada; publicación mediante el PR #6.
+
+Se eliminan las líneas del encabezado, el listado y el pie. La portada usa tres columnas en escritorio y una lista con logo y texto en móvil; el espacio, la alineación y la tipografía distinguen los proyectos. Se mantienen los nombres, descripciones y destinos. La flecha se integra en el título enlazado y sustituye el «Abrir» repetido. No se añaden tarjetas, fondos de color ni sombras para reemplazar los bordes. Las capturas vigentes se actualizan tras comprobar la composición.
+
+La revisión del directorio se comprueba a cinco anchuras, con destinos de enlace, carga de logos y navegación con teclado. El cambio queda en el PR #6; las capturas de escritorio y móvil acompañan estas specs.
