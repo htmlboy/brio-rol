@@ -54,3 +54,20 @@ La emisión del certificado y la propagación DNS pueden tardar después de guar
 
 - [Configurar un dominio personalizado de GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 - [Gestionar registros DNS en Cloudflare](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/).
+
+## Sistema y aplicación online: Netlify
+
+La landing `briorol.com` permanece en GitHub Pages. Sistema y la aplicación de juego mantienen sus dos proyectos existentes de Netlify.
+
+Los dominios por defecto se han comprobado por HTTPS: cada uno sirve el mismo título y archivo JavaScript de producción que su dominio actual.
+
+| Proyecto | Dominio nuevo en Netlify | CNAME en Cloudflare | Target | Proxy |
+| --- | --- | --- | --- | --- |
+| Sistema | `sistema.briorol.com` | `sistema` | `sistemabrio.netlify.app` | DNS only |
+| Online | `online.briorol.com` | `online` | `online-sistemabrio.netlify.app` | DNS only |
+
+En el panel de cada proyecto de Netlify, abrir la gestión de dominios y añadir su dominio nuevo. Crear después el CNAME correspondiente en Cloudflare, esperar al certificado y comprobar que la aplicación y sus rutas funcionan. A continuación se puede fijar el nuevo dominio como principal y activar las redirecciones preparadas de las direcciones antiguas.
+
+Los destinos de las redirecciones son `sistemabrio.com` → `sistema.briorol.com` y `online.sistemabrio.com` → `online.briorol.com`, conservando las rutas. Esto no cambia los registros de la raíz `briorol.com`, de `www` ni de Ruido.
+
+El descriptor gráfico de la aplicación es online. Las propuestas anteriores juega, sala y salas quedan sustituidas para esta migración.
