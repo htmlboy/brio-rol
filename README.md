@@ -1,6 +1,6 @@
 # Brío Rol
 
-Landing temporal del espacio de proyectos de rol de Javier Usobiaga.
+Landing temporal del espacio de proyectos de rol de Javier U.
 
 **https://briorol.com/**
 
