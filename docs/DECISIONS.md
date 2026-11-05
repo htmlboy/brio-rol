@@ -105,3 +105,9 @@ Fecha: 2026-11-05. Estado: publicada y verificada.
 Sistema y Online sirven sus dominios nuevos desde los repos de compilaciones de GitHub Pages. Las reglas, materiales, recursos y recuperación de rutas se han comprobado; la landing principal enlaza directamente a ambos. Online requirió una revisión nueva para superar un primer despliegue de Pages que agotó el tiempo de espera.
 
 Las direcciones antiguas se redirigirán mediante sitios Fully Hosted y certificados de DreamHost, usando el paquete .htaccess preparado. El cambio de nameservers afecta solo a sistemabrio.com; briorol.com sigue en Cloudflare. La baja de los proyectos de Netlify y su zona antigua se realiza tras comprobar esas redirecciones.
+
+## D-016 — Redirecciones sin contratar alojamiento
+
+Fecha: 2026-11-05. Estado: configuración preparada.
+
+Se descarta el hosting de DreamHost para los dominios antiguos. La alternativa gratuita usa la zona antigua en Cloudflare, DNS proxied para los tres hosts y dos Single Redirects 301 que conservan rutas y consultas. Las aplicaciones permanecen en GitHub Pages. El cambio de nameservers y la activación de las reglas deben realizarse en las cuentas del titular; no se han ejecutado desde la integración.

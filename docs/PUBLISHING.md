@@ -57,7 +57,7 @@ La emisión del certificado y la propagación DNS pueden tardar después de guar
 
 ## Sistema y Online: GitHub Pages
 
-Estado actual: ambos sitios están publicados en GitHub Pages y la landing principal enlaza a los dominios nuevos. La retirada de las redirecciones antiguas de Netlify depende de configurar DreamHost. Las instrucciones anteriores para apuntar los subdominios a Netlify quedan sustituidas.
+Estado actual: ambos sitios están publicados en GitHub Pages y la landing principal enlaza a los dominios nuevos. Las direcciones antiguas se redirigirán gratuitamente desde Cloudflare. Las instrucciones anteriores para apuntar los subdominios a Netlify quedan sustituidas.
 
 | Sitio | Repositorio de publicación | Dominio de Pages | CNAME en Cloudflare | Target |
 | --- | --- | --- | --- | --- |
@@ -74,20 +74,33 @@ Los dos repositorios de publicación contienen solo compilaciones, sin mapas de 
 
 Las páginas conocidas tienen entradas propias; las rutas dinámicas de salas se recuperan mediante el documento 404 y una restauración de la ruta antes de arrancar React. No dependen de redirecciones de Netlify.
 
-## Direcciones antiguas en DreamHost
+## Redirecciones gratuitas de las direcciones antiguas
 
-Para retirar Netlify conservando las direcciones antiguas, DreamHost servirá únicamente las redirecciones. Las aplicaciones nuevas permanecen en GitHub Pages.
+Se descarta contratar hosting en DreamHost. La alternativa actual es usar **Single Redirects de Cloudflare**, que sirven las redirecciones por HTTP y HTTPS sin un servidor de origen. Las aplicaciones siguen en GitHub Pages.
 
-1. Añadir `sistemabrio.com` y `online.sistemabrio.com` como sitios **Fully Hosted**, con carpetas vacías dedicadas. Incluir `www.sistemabrio.com` en el primero. Se necesita un plan de alojamiento para atender HTTPS.
-2. Descargar [el ZIP de redirecciones](../deliverables/dreamhost-redirects.zip) y subir su archivo `.htaccess` a la carpeta web de cada sitio antiguo. Mostrar archivos ocultos si hace falta. La validación de certificados queda exceptuada de las redirecciones.
-3. En el registrador de `sistemabrio.com`, sustituir los nameservers de Netlify por `ns1.dreamhost.com`, `ns2.dreamhost.com` y `ns3.dreamhost.com`. `briorol.com` permanece en Cloudflare.
-4. Cuando el dominio antiguo resuelva a DreamHost, activar **Let's Encrypt** para ambos sitios, incluido www, y comprobar las redirecciones por HTTP y HTTPS, con sus rutas y consultas.
-5. Tras esas comprobaciones, eliminar los dos proyectos de Netlify y su zona DNS antigua. Mantener registrado el dominio mientras se necesiten las redirecciones.
+1. Añadir **sistemabrio.com** como una zona independiente en Cloudflare, con el plan gratuito. Conservar los registros no relacionados con la web al importar la zona.
+2. En el registrador de `sistemabrio.com`, sustituir los nameservers actuales de Netlify/NS1 por la pareja que Cloudflare asigne a esa zona. Esto no cambia el registrador ni los nameservers ya operativos de briorol.com.
+3. En las DNS de la zona antigua, configurar estos tres registros, sustituyendo los A/AAAA/CNAME web que entren en conflicto:
 
-No usar la modalidad básica **Redirect** para esta receta: la redirección de las visitas HTTPS requiere alojamiento y certificado en el dominio de origen. No se necesita WordPress ni base de datos en DreamHost.
+| Tipo | Nombre | Dirección | Proxy |
+| --- | --- | --- | --- |
+| A | `@` | `192.0.2.1` | Proxied, nube naranja |
+| A | `www` | `192.0.2.1` | Proxied, nube naranja |
+| A | `online` | `192.0.2.1` | Proxied, nube naranja |
 
-Los destinos son `sistemabrio.com` y `www.sistemabrio.com` → `https://sistema.briorol.com`, y `online.sistemabrio.com` → `https://online.briorol.com`. Las direcciones proporcionadas `.netlify.app` pertenecen a Netlify y no se conservan al borrar los proyectos.
+La dirección es el marcador documentado por Cloudflare para hosts que solo redirigen; no se contrata ni utiliza un servidor en ella. Los registros de los sitios nuevos en la zona briorol.com conservan su configuración de GitHub Pages.
 
-La renovación del dominio y el alojamiento son independientes. Si caduca `sistemabrio.com`, se pierden también sus redirecciones.
+4. En **Rules → Redirect Rules**, añadir dos Single Redirects con código **301** y **Preserve query string** activado. Usar destino **Dynamic**:
 
-Referencia: [HTTPS y el servicio Redirect de DreamHost](https://help.dreamhost.com/hc/en-us/articles/115003505112-Force-your-site-to-redirect-to-HTTPS-SSL).
+| Coincidencia de hostname | Expresión del destino |
+| --- | --- |
+| `online.sistemabrio.com` | `concat("https://online.briorol.com", http.request.uri.path)` |
+| `sistemabrio.com` o `www.sistemabrio.com` | `concat("https://sistema.briorol.com", http.request.uri.path)` |
+
+El [JSON de referencia](../deliverables/cloudflare-redirects.json) contiene las dos reglas. Es una referencia de configuración, no un script para sustituir reglas existentes.
+
+5. Esperar a que la zona y el certificado de Cloudflare estén activos y comprobar enlaces antiguos por HTTP y HTTPS, con rutas y consultas. Después retirar los dos proyectos y la zona antigua de Netlify.
+
+No hace falta contratar hosting ni trasladar el registro del dominio. Mientras se quieran conservar las redirecciones, sistemabrio.com debe seguir registrado. El ZIP de DreamHost corresponde a la alternativa anterior y ya no se usa en este procedimiento.
+
+Referencias: [redirección de dominios en Cloudflare](https://developers.cloudflare.com/fundamentals/manage-domains/redirect-domain/) y [Single Redirects](https://developers.cloudflare.com/rules/url-forwarding/single-redirects/).
