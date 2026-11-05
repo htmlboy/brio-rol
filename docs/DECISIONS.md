@@ -120,6 +120,6 @@ Se recuperan los SVG finales de la familia y se aplican al directorio Brío Rol,
 
 ## D-018 — Corregir el tratamiento de campaña de Sistema
 
-Fecha: 2026-11-05. Estado: segunda revisión en publicación.
+Fecha: 2026-11-05. Estado: segunda revisión publicada.
 
 La primera aplicación seguía dependiendo de un slogan, una ilustración de ambiente y recursos de portada genéricos. Se sustituyen por una presentación breve y un ejemplo real de las reglas. La identidad común se mantiene en los logos, el color y la tipografía de lectura; no exige repetir una plantilla gráfica en cada producto. Se retiran numeraciones decorativas y flechas de navegación interna. Referencia: `specs/03-family-web.md`.
