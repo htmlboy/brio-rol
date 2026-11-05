@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Presentar el espacio de proyectos de rol de Javier Usobiaga y dirigir a cada visitante al sistema, herramienta o módulo que necesite.
+Presentar el espacio de proyectos de rol de Javier U y dirigir a cada visitante al sistema, herramienta o módulo que necesite.
 
 ## Públicos y tareas
 

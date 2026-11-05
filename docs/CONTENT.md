@@ -6,15 +6,15 @@ Estado: propuesta revisada. Los textos vigentes están en `index.html`.
 
 Título: **Proyectos de rol**.
 
-«Soy Javier Usobiaga. Este es mi espacio para publicar sistemas, herramientas y módulos de rol.»
+«Soy Javier U. Este es mi espacio para publicar sistemas, herramientas y módulos de rol.»
 
 ## Proyectos disponibles
 
 - **Sistema Brío:** «Reglas y hojas de personaje para partidas de una o pocas sesiones.»
-- **Sala:** «Personajes y tiradas de dados compartidas en una sala de juego.»
+- **Brío online:** «Personajes y tiradas de dados compartidas en una sala de juego.»
 - **Ruido:** «Ambientes y música que puedes mezclar y guardar como escenas.»
 
-Cada fila enlaza directamente a su proyecto. Sala sigue siendo una propuesta de nombre; los destinos conservan las direcciones actuales.
+Cada fila enlaza directamente a su proyecto. El nombre de la aplicación es Brío online.
 
 ## Módulos
 
@@ -24,9 +24,7 @@ Cuando se publique el primero, este texto dará paso a un índice con títulos, 
 
 ## Contacto
 
-«Si tienes alguna sugerencia o encuentras un fallo, puedes escribirme.»
-
-Se mantiene el correo ya publicado por el autor: `hola@javierusobiaga.com`.
+Firma pública: **Javier U**. Contacto por Discord: **javier_u**. No se publica el nombre profesional, su web ni el correo. Se muestra el nombre de usuario sin inventar un enlace de perfil: Discord requiere un ID numérico para ese enlace.
 
 ## Criterio editorial
 

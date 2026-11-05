@@ -4,7 +4,7 @@
 
 Fecha: 2026-11-05. Estado: propuesta implementada para revisión.
 
-La landing presenta proyectos de Javier Usobiaga. Sistema Brío es uno de sus proyectos y no la marca que debe contenerlos a todos. El catálogo admite módulos, sistemas y herramientas.
+La landing presenta proyectos de Javier U. Sistema Brío es uno de sus proyectos y no la marca que debe contenerlos a todos. El catálogo admite módulos, sistemas y herramientas.
 
 ## D-002 — Continuidad con el logotipo original
 
@@ -123,3 +123,11 @@ Se recuperan los SVG finales de la familia y se aplican al directorio Brío Rol,
 Fecha: 2026-11-05. Estado: segunda revisión publicada.
 
 La primera aplicación seguía dependiendo de un slogan, una ilustración de ambiente y recursos de portada genéricos. Se sustituyen por una presentación breve y un ejemplo real de las reglas. La identidad común se mantiene en los logos, el color y la tipografía de lectura; no exige repetir una plantilla gráfica en cada producto. Se retiran numeraciones decorativas y flechas de navegación interna. Referencia: `specs/03-family-web.md`.
+
+## D-019 — Firma de autor y contacto
+
+Fecha: 2026-11-05. Estado: preparado para publicación.
+
+La firma pública es Javier U. El contacto es el usuario de Discord `javier_u`, confirmado por el autor. Se retiran la web profesional y el correo de las superficies públicas actuales. Se presenta el nombre de usuario sin inventar un enlace de perfil. Los créditos propios y la licencia usan el seudónimo; se conservan los derechos de terceros. No se reescribe el historial de Git.
+
+La portada de Sistema presenta brevemente el producto y los accesos a reglas, materiales y Online. El ejemplo de tirada queda en las reglas, no en portada.

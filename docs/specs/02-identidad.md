@@ -4,7 +4,7 @@ Estado: exploración gráfica para revisión. No sustituye todavía los logotipo
 
 ## Encargo
 
-Diseñar una marca para Brío Rol, espacio de proyectos de rol de Javier Usobiaga. La identidad debe admitir módulos, sistemas y aplicaciones, conservando una relación reconocible con Brío sin confundir la marca de autor con Sistema Brío.
+Diseñar una marca para Brío Rol, espacio de proyectos de rol de Javier U. La identidad debe admitir módulos, sistemas y aplicaciones, conservando una relación reconocible con Brío sin confundir la marca de autor con Sistema Brío.
 
 La revisión se centra en el logotipo y sus versiones. Las pantallas, los rediseños de productos y los cambios de dominio quedan fuera de este trabajo.
 

@@ -1,6 +1,6 @@
 # Brío Rol
 
-El espacio de proyectos de rol de Javier Usobiaga: módulos, sistemas y herramientas de juego.
+El espacio de proyectos de rol de Javier U: módulos, sistemas y herramientas de juego.
 
 Landing temporal publicada en **https://briorol.com/**.
 
