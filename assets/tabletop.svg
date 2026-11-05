@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 550" fill="none"><title>Mapa, ficha y dado sobre una mesa</title>
+<g stroke="#252720" stroke-width="2.5" stroke-linejoin="round">
+<g transform="rotate(-8 290 265)"><path d="M73 85h397v365H73z" fill="#252720"/><path d="M62 74h397v365H62z" fill="#e4e5d8"/><path d="M194 74v365M326 74v365" stroke="#9ca68e" stroke-dasharray="4 5"/>
+<g stroke="#54684b" stroke-width="2"><path d="m82 199 35-58 36 58m-55-27 19 13 16-13m71 101 37-65 42 65m-62-32 19 15 20-13m57 95 42-76 46 76m-67-37 21 15 20-15m-185 2 29-49 29 49m-132 91q37-30 63-13t62-11 62 4 64-16 43 0"/><path d="M81 379c82-25 51-93 127-80s49 99 113 76 37-85 119-97" stroke="#78928f" stroke-width="7"/></g>
+<path d="M102 335c43-30 72-5 95-39s-5-74 36-110 84-15 129-47" stroke="#bd3f29" stroke-width="4" stroke-dasharray="8 8"/><circle cx="102" cy="335" r="9" fill="#bd3f29" stroke="#bd3f29"/><circle cx="362" cy="139" r="12" fill="#f3efe4" stroke="#bd3f29" stroke-width="4"/><path d="M88 105h46m-46 12h28M383 400h48m-48 11h30" stroke-width="2"/>
+</g>
+<g transform="rotate(10 515 232)"><path d="M414 113h182v239H414z" fill="#252720"/><path d="M404 103h182v239H404z" fill="#f8f4e9"/><path d="M427 130h88v11h-88z" fill="#bd3f29" stroke="none"/><path d="M427 159h134m-134 12h93m-93 31h134m-134 34h134m-134 34h134m-134 34h134" stroke="#a1a293" stroke-width="1.5"/><circle cx="440" cy="220" r="8"/><circle cx="472" cy="220" r="8"/><circle cx="504" cy="220" r="8" fill="#252720"/><circle cx="536" cy="220" r="8" fill="#252720"/>
+</g>
+<g transform="rotate(14 472 414)"><rect x="389" y="334" width="163" height="163" rx="11" fill="#252720"/><rect x="380" y="325" width="163" height="163" rx="11" fill="#bd3f29"/><circle cx="461.5" cy="406.5" r="23" fill="#f3efe4" stroke="none"/></g>
+<g transform="rotate(-27 134 462)"><path d="M55 451h148l28 12-28 12H55z" fill="#dfb358"/><path d="M55 451h18v24H55z" fill="#bd3f29"/><path d="m203 451 28 12-28 12z" fill="#f3efe4"/><path d="m221 459 10 4-10 4z" fill="#252720"/><path d="M73 463h130" stroke-width="1"/></g>
+</g></svg>

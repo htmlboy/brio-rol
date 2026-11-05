@@ -2,6 +2,34 @@
 
 El espacio de proyectos de rol de Javier Usobiaga: módulos, sistemas y herramientas de juego.
 
-Repositorio de la web de presentación y de su identidad visual. La propuesta inicial se desarrolla en una rama independiente para su revisión.
+Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Sistema Brío, Sala —nombre propuesto de la aplicación de juego compartido— y Ruido.
 
-El código, los textos y el arte original tienen todos los derechos reservados. Las tipografías de terceros conservan sus licencias.
+## Ver la propuesta
+
+Sitio estático, sin instalación ni compilación:
+
+```sh
+python -m http.server 4174
+```
+
+- Landing: `http://localhost:4174/`
+- Estudio de identidad y muestra clara/oscura: `http://localhost:4174/design/`
+- [Captura de escritorio](docs/previews/landing-desktop.png) y [móvil](docs/previews/landing-mobile.png).
+- [Estudio visual](docs/previews/brand-desktop.png) y [muestra oscura de Ruido](docs/previews/ruido-dark-study.png).
+
+## Definición
+
+- [Dirección visual y logotipo](docs/BRAND.md).
+- [Contenidos y voz](docs/CONTENT.md).
+- [Sala frente a Juega y arquitectura de nombres](docs/NAMING.md).
+- [Definición de producto](docs/specs/01-producto.md).
+- [Publicación con Cloudflare y GitHub Pages](docs/PUBLISHING.md).
+- [Decisiones](docs/DECISIONS.md) y [validación](docs/VALIDATION.md).
+
+La landing funciona sin JavaScript. El estudio de marca usa JavaScript solo para alternar la muestra clara/oscura. Fuentes e ilustraciones se sirven localmente. No hay analítica, formularios, backend ni dependencias de ejecución.
+
+La propuesta no cambia los dominios ni las aplicaciones actuales. Los enlaces a Sistema y Sala conservan los destinos publicados mientras se decide la migración. No hay despliegue automático configurado en este repositorio.
+
+## Derechos
+
+El código, los textos y el arte original tienen todos los derechos reservados. Las tipografías conservan SIL OFL. Véanse [LICENSE](LICENSE) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
