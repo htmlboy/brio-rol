@@ -117,3 +117,9 @@ Se descarta el hosting de DreamHost para los dominios antiguos. La alternativa g
 Fecha: 2026-11-05. Estado: primera aplicación publicada, revisión visual en curso.
 
 Se recuperan los SVG finales de la familia y se aplican al directorio Brío Rol, Sistema y la firma de Online. Sistema es la primera aplicación completa: composición editorial de reglas, tipografía local, papel, tinta y rojo, con ilustración vectorial propia en lugar de renders de géneros distintos. Se mantienen las mecánicas, los PDFs y la interfaz de las salas. Ruido queda como siguiente aplicación, una vez contrastada esta dirección. Referencia: `specs/03-family-web.md`.
+
+## D-018 — Corregir el tratamiento de campaña de Sistema
+
+Fecha: 2026-11-05. Estado: segunda revisión en publicación.
+
+La primera aplicación seguía dependiendo de un slogan, una ilustración de ambiente y recursos de portada genéricos. Se sustituyen por una presentación breve y un ejemplo real de las reglas. La identidad común se mantiene en los logos, el color y la tipografía de lectura; no exige repetir una plantilla gráfica en cada producto. Se retiran numeraciones decorativas y flechas de navegación interna. Referencia: `specs/03-family-web.md`.

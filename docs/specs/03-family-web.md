@@ -30,3 +30,7 @@ Capturas locales: [portada Sistema](../previews/sistema-desktop.png), [móvil](.
 ## Publicación
 
 Los despliegues de Sistema, Online y Brío Rol terminaron correctamente el 2026-11-05. Brío Rol incorpora los logos mediante el PR #4. Sistema publica el rediseño completo; Online incorpora la firma y conserva sus temas e interfaz. La propuesta de diseño y estas capturas siguen abiertas a revisión. GitHub todavía indica certificado pendiente para Sistema y Online; esto se registra por separado y no se presenta como HTTPS validado.
+
+## Segunda revisión crítica de Sistema
+
+Se descarta el tratamiento de portada de la primera entrega: titular de campaña en mayúsculas, tipografía condensada e ilustración de un portal. El texto presenta el uso del sistema directamente y un ejemplo de las reglas sustituye la decoración: Destreza 3, dificultad 4, resultados 4/2/5 y dos éxitos. Se usa Plex en toda la web. Se eliminan numeraciones sin secuencia real, etiquetas repetidas y flechas de enlaces internos. La revisión no cambia mecánicas ni PDFs. Las capturas se actualizan con esta segunda aplicación.
