@@ -51,3 +51,11 @@ Fecha: 2026-11-05. Estado: recomendación gráfica pendiente de valoración.
 La revisión específica del logotipo recomienda conservar el dibujo original de Brío, con ROL dibujado a aproximadamente un tercio de su altura y alineado con su base. Se definen firma horizontal, compacta y versiones inversas. La B extraída sirve como inicial; para usos pequeños tiene un maestro de contraformas abiertas.
 
 Un redibujo más regular se conserva como exploración descartada por perder singularidad. La recomendación, las pruebas de tamaño y los SVG se recogen en `IDENTITY-REVIEW.md` y `../design/identity/`. Esta entrega no sustituye los assets de la landing ni modifica las aplicaciones.
+
+## D-009 — Publicación temporal en el dominio principal
+
+Fecha: 2026-11-05. Estado: publicada y verificada.
+
+Se publica una landing temporal desde `main`, con un workflow de GitHub Pages independiente del estudio gráfico. Se conserva la portada breve y se usa «Juego online» hasta cerrar el nombre de esa aplicación. Los destinos siguen siendo los publicados actualmente. El dominio `briorol.com`, sus recursos y la redirección desde `www` se verifican por HTTPS; queda activar la redirección obligatoria de HTTP en la configuración de Pages.
+
+Se incorpora `main` a la rama de diseño para que la propuesta pendiente conserve la configuración de publicación y el índice temporal. El estudio del logotipo sigue disponible en el PR sin quedar adoptado por esta publicación.

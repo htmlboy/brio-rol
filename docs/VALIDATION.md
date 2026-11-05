@@ -40,3 +40,9 @@ Las capturas son del prototipo local. Sistema sigue siendo una propuesta dentro 
 El muestrario `design/identity/` se revisó en Chromium a 320, 390, 768 y 1440 px, sin desbordamiento horizontal y con imágenes disponibles. Las firmas se compararon en una tinta, en negativo y a 120/160 px; la inicial se revisó a 16/24/32 px. Los SVG se parsearon y se comprobó que las firmas no dependen de fuentes, imágenes ni recursos externos.
 
 Las capturas actuales están en `design/identity/previews/`. La revisión es una exploración gráfica pendiente de valoración por el autor y de pruebas de impresión física.
+
+## Landing temporal publicada
+
+Despliegue de Pages completado correctamente en la ejecución `42082996340`. Página, CSS, SVG y fuente IBM Plex Sans verificados con HTTP 200 por HTTPS en `briorol.com`. Los tres destinos actuales de los proyectos responden con HTTP 200. `www.briorol.com` redirige a la raíz. Certificado aprobado para ambos nombres.
+
+El acceso HTTP todavía permanece en HTTP y la dirección anterior de GitHub Pages redirige a HTTP, porque Enforce HTTPS está desactivado. La integración no tiene permiso para activar ese ajuste; la instrucción concreta está en `PUBLISHING.md`.

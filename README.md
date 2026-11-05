@@ -2,6 +2,8 @@
 
 El espacio de proyectos de rol de Javier Usobiaga: módulos, sistemas y herramientas de juego.
 
+Landing temporal publicada en **https://briorol.com/**.
+
 Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Sistema Brío, Sala —nombre propuesto de la aplicación de juego compartido— y Ruido.
 
 ## Revisión del logotipo
@@ -39,7 +41,7 @@ python -m http.server 4174
 
 La landing funciona sin JavaScript. El estudio de marca usa JavaScript solo para alternar la muestra clara/oscura. Fuentes e ilustraciones se sirven localmente. No hay analítica, formularios, backend ni dependencias de ejecución.
 
-La propuesta no cambia los dominios ni las aplicaciones actuales. Los enlaces a Sistema y Sala conservan los destinos publicados mientras se decide la migración. No hay despliegue automático configurado en este repositorio.
+La propuesta no cambia los dominios ni las aplicaciones actuales. Los enlaces a Sistema y Sala conservan los destinos publicados mientras se decide la migración. `main` publica la landing temporal automáticamente mediante GitHub Actions y Pages; el estudio de diseño continúa en una rama independiente.
 
 ## Derechos
 

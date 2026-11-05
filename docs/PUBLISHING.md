@@ -2,25 +2,25 @@
 
 Destino: GitHub Pages, repositorio público `htmlboy/briorol`. DNS en Cloudflare. Dirección principal: **https://briorol.com/**; `www.briorol.com` redirigirá a ella.
 
-La propuesta está en un PR independiente. No se ha activado el alojamiento ni se ha modificado DNS. Esta configuración es distinta de la de Ruido: la landing va en la raíz del dominio; Ruido conserva su subdominio y su repositorio.
+## Estado actual
+
+La landing temporal está publicada en **https://briorol.com/** desde `main`. La fuente de Pages es **GitHub Actions**, con el workflow `.github/workflows/pages.yml`. El certificado de `briorol.com` y `www.briorol.com` está aprobado. Se verificaron la página, los estilos, el logo y las fuentes con HTTP 200 por HTTPS.
+
+`https://www.briorol.com/` redirige a la raíz. La opción **Enforce HTTPS** sigue pendiente: la integración no tiene permiso para cambiarla; se puede activar en [Settings → Pages](https://github.com/htmlboy/briorol/settings/pages). Esto hará que también el acceso por HTTP y la redirección desde la dirección de GitHub Pages terminen en HTTPS.
+
+El estudio de identidad sigue en un PR independiente y no se ha incluido en la publicación temporal. La aplicación se presenta como «Juego online» hasta cerrar su nombre. Los destinos actuales de Sistema Brío, la aplicación y Ruido se comprobaron con HTTP 200.
 
 ## 1. GitHub
 
-Cuando se quiera publicar esta propuesta:
+La configuración ya preparada es:
 
-1. Integrar el PR de diseño en `main`. Así `index.html`, `assets/` y `.nojekyll` estarán en la rama que se publica.
-2. Abrir [Settings → Pages](https://github.com/htmlboy/briorol/settings/pages).
-3. En **Build and deployment → Source**, elegir **Deploy from a branch**.
-4. Seleccionar la rama **main** y la carpeta **/ (root)**. Pulsar **Save**.
-5. En **Custom domain**, escribir **briorol.com**, sin `https://` ni `/`, y guardar. GitHub añadirá o actualizará el archivo `CNAME` en la rama publicada.
-6. Completar los registros de Cloudflare del siguiente apartado.
-7. Volver a Pages y esperar a que termine la comprobación de DNS y se emita el certificado. Después activar **Enforce HTTPS** cuando esté disponible.
+- **Source:** GitHub Actions.
+- **Custom domain:** `briorol.com`.
+- **Publicación:** automática al actualizar `main`, sin instalación ni compilación de la web.
+- **Artefacto:** `index.html`, recursos, `CNAME`, `.nojekyll` y avisos de derechos. No incluye los estudios ni la documentación.
+- **HTTPS:** certificado aprobado; queda marcar **Enforce HTTPS** en Pages.
 
-No hace falta configurar un comando de compilación ni GitHub Actions para este sitio estático. GitHub puede mostrar su ejecución interna de Pages en Actions; no hay que lanzar otro workflow manualmente.
-
-Antes de configurar el dominio personalizado, la dirección de Pages será `https://htmlboy.github.io/briorol/`. La landing utiliza rutas relativas y también funciona en esa dirección. Una vez asignado el dominio, esa dirección debe redirigir a `briorol.com`.
-
-Para revisar la propuesta publicada antes de integrarla, se puede seleccionar temporalmente la rama **design/brio-rol-direction**, **/ (root)**, dejando vacío Custom domain. Después de integrar el PR, cambiar a **main** y continuar con el dominio propio.
+No cambiar Source a «Deploy from a branch»: el workflow existente ya publica el sitio. La dirección `https://htmlboy.github.io/briorol/` redirige al dominio personalizado.
 
 ## 2. Cloudflare
 
@@ -43,7 +43,7 @@ Con **DNS only**, el HTTPS lo sirve GitHub Pages. No hace falta cambiar el modo 
 ## 3. Comprobar
 
 - `https://briorol.com/`: landing de Brío Rol, con sus imágenes y fuentes.
-- `https://briorol.com/design/`: estudio de identidad; puede mantenerse durante la revisión o retirarse después.
+- El estudio de identidad sigue en el PR de diseño; no se sirve desde la landing temporal.
 - `https://www.briorol.com/`: redirección a `https://briorol.com/`.
 - `https://ruido.briorol.com/`: sigue abriendo Ruido.
 - Enlaces de Sistema y Sala: de momento apuntan a `sistemabrio.com` y `online.sistemabrio.com`, respectivamente.
