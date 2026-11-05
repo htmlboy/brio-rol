@@ -19,6 +19,7 @@ python -m http.server 4174
 
 ## Definición
 
+- [Aplicación a Sistema Brío](docs/SISTEMA.md): portada y consulta de reglas en `/design/sistema/`.
 - [Dirección visual y logotipo](docs/BRAND.md).
 - [Contenidos y voz](docs/CONTENT.md).
 - [Sala frente a Juega y arquitectura de nombres](docs/NAMING.md).

@@ -14,7 +14,7 @@ Presentar el espacio de proyectos de rol de Javier Usobiaga y dirigir a cada vis
 
 ## Alcance inicial
 
-Landing en español, tres proyectos, espacio editorial para módulos, presentación del autor, contacto público y una identidad que pueda aplicarse a otros productos. Estudio de marca independiente con variaciones de logotipo, tipografía, color y una muestra de controles clara/oscura.
+Landing en español, tres proyectos, espacio editorial para módulos, presentación breve del autor, contacto público y una identidad que pueda aplicarse a otros productos. Estudio de marca independiente con variaciones de logotipo, tipografía, color y una muestra de controles clara/oscura.
 
 ## Fuera de esta entrega
 
@@ -30,3 +30,7 @@ No se implementan tienda, cuentas, formularios, newsletter, integración de herr
 - Imágenes decorativas con alternativa vacía; la ilustración principal tiene descripción.
 - Fuentes y recursos gráficos incluidos localmente, con sus derechos documentados.
 - Las decisiones de nombre pendientes quedan documentadas fuera de la landing.
+
+## Composición revisada
+
+Índice personal de proyectos, con enlaces en filas y descripciones concretas. No incluye un hero ilustrado, numeración de productos ni reclamos publicitarios. La propuesta de Sistema está en `design/sistema/` y no modifica el proyecto real.

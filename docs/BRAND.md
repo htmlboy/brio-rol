@@ -1,4 +1,4 @@
-# Brío Rol — Dirección visual 01
+# Brío Rol — Dirección visual revisada
 
 Estado: propuesta para revisión. La landing y el estudio visual son prototipos implementados; no rediseñan las aplicaciones existentes.
 
@@ -16,7 +16,7 @@ Una web editorial de autor, cercana a una publicación de material de juego. El 
 - Tipografía de titular condensada que dialogue con el logo. Texto y controles de lectura cómoda.
 - Alineación a la izquierda, filetes, espacios consistentes y bloques planos.
 - Ilustraciones originales de mapas, fichas, dados y mesa compartida. Trazos simples, reconocibles a tamaños pequeños.
-- Proyectos en filas con descripción y acceso explícito. Cada proyecto tiene espacio según su contenido, sin convertir la web en un panel de aplicaciones.
+- Proyectos en filas con descripción y acceso explícito. La landing es un índice personal breve.
 
 ## Logotipo
 
@@ -36,8 +36,8 @@ Usos iniciales:
 
 | Uso | Elección |
 | --- | --- |
-| Titulares y nombres | Barlow Condensed Bold |
-| Lectura, navegación y controles | IBM Plex Sans Regular / Medium |
+| Titulares de publicaciones y muestras gráficas | Barlow Condensed Bold, según el contexto |
+| Titulares de la web, lectura, navegación y controles | IBM Plex Sans Regular / Medium / Semibold |
 | Papel | `#F3EFE4` |
 | Tinta | `#252720` |
 | Texto secundario | `#5C6056` |
@@ -72,3 +72,7 @@ La propuesta prescinde de reclamos sobre revolucionar el rol, estadísticas de u
 - `design/index.html`: logotipo, familias, paleta y estudio claro/oscuro de controles.
 - `docs/previews/`: capturas reales del prototipo en navegador.
 - `CONTENT.md`: textos, estructura editorial y datos que faltan para publicar módulos.
+
+## Revisión de la landing
+
+La primera composición resultaba demasiado promocional para un índice personal. La revisión vigente usa una presentación breve y filas de enlaces descriptivos. Desaparecen la ilustración principal, el titular de gran escala y color parcial, los números de proyecto y las etiquetas repetidas. El logo conserva el carácter de la familia; el contenido de la landing utiliza IBM Plex Sans en una escala contenida. El estudio visual conserva muestras de recursos, no obliga a emplearlos todos en cada página.

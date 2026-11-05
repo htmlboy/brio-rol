@@ -1,18 +1,18 @@
-# Validación de la propuesta
+# Validación de la propuesta revisada
 
-Fecha: 2026-11-05. Navegador: Chromium, automatizado con Playwright sobre el servidor local.
+Fecha: 2026-11-05. Navegador: Chromium, automatizado con Playwright sobre servidor local.
 
 ## Verificado
 
-- Landing y estudio de identidad a 320, 390, 768, 1024 y 1440 px: diez vistas sin desbordamiento horizontal.
-- Imágenes y fuentes locales disponibles; sin recursos con respuesta de error ni errores JavaScript en consola.
-- Un encabezado h1 por página, tres accesos a los proyectos y navegación por anclas operativa.
-- Enlace de salto accesible por teclado, con foco visible, y navegación a Módulos y Sobre Brío.
-- La landing mantiene sus tres enlaces de proyecto con JavaScript desactivado.
-- Selector claro/oscuro del estudio: cambia el tema y actualiza `aria-pressed`.
-- Capturas reales de escritorio y móvil revisadas. Se corrigió una interferencia entre la ilustración de Ruido y su rótulo.
+- Landing, estudio de identidad, portada de Sistema y consulta de reglas a 320, 390, 768, 1024 y 1440 px: veinte vistas sin desbordamiento horizontal.
+- Un encabezado h1 por página, imágenes disponibles y ausencia de errores JavaScript de página.
+- Los tres enlaces del índice de proyectos están presentes.
+- Las anclas del índice de reglas navegan a las secciones correspondientes.
+- El selector claro/oscuro del estudio sigue funcionando tras separar los estilos compartidos de los de la landing.
+- Capturas actuales de escritorio y móvil para las cuatro páginas, revisadas visualmente.
+- La landing y la propuesta de Sistema son HTML y CSS sin dependencia de JavaScript.
 
-## Contraste calculado
+## Contraste de los colores comunes
 
 | Texto / fondo | Relación |
 | --- | --- |
@@ -27,10 +27,10 @@ Estas parejas superan 4,5:1 para texto normal. Esto no constituye una auditoría
 
 ## Pendiente
 
-- Valoración de la dirección de marca, el logotipo y la voz por el autor.
-- Decisión final sobre Sala frente a Juega.
-- Incorporación de datos reales de los módulos cuando se publiquen.
-- Comprobación en Safari/iOS y en dispositivos físicos.
+- Valoración del diseño y los textos por el autor.
+- Decisión sobre Sala frente a Juega.
+- Datos reales de los módulos cuando se publiquen.
+- Safari/iOS y dispositivos físicos.
 - Publicación y comprobación de DNS, certificado y redirección de `www`, según `PUBLISHING.md`.
 
-Las capturas son del prototipo local. No acreditan un despliegue en producción ni cambios en Sistema, Sala o Ruido.
+Las capturas son del prototipo local. Sistema sigue siendo una propuesta dentro de este repositorio; no modifica sus reglas, su repositorio ni su sitio publicado.
