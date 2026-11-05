@@ -1,6 +1,6 @@
 # Arquitectura y nombre de la aplicación
 
-Estado: recomendación pendiente de decisión.
+Estado: recomendación anterior pendiente de decisión. La exploración actual compara Brío / rol, Brío / sistema y Brío / salas, junto con ruido / by Brío y dados / by Brío. Se documentará en `BRAND-ARCHITECTURE.md`; el nombre y el dominio de la aplicación no se cambian con esta prueba.
 
 ## Recomendación: Sala
 

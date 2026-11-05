@@ -1,6 +1,6 @@
 # Brío Rol — Dirección visual revisada
 
-Estado: dirección visual inicial, para revisión. La recomendación actual sobre el logotipo está en [IDENTITY-REVIEW.md](IDENTITY-REVIEW.md) y se presenta en `design/identity/`. Los assets de las páginas siguen conservando la primera propuesta; no se ha aplicado aún la recomendación.
+Estado: dirección visual inicial, para revisión. La prueba de arquitectura actual está en [BRAND-ARCHITECTURE.md](BRAND-ARCHITECTURE.md) y `design/family/`. La revisión anterior del logotipo se conserva en `IDENTITY-REVIEW.md`. Los assets de las páginas siguen conservando la primera propuesta; no se ha aplicado aún la recomendación.
 
 ## Punto de partida
 

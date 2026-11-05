@@ -46,3 +46,7 @@ Las capturas actuales están en `design/identity/previews/`. La revisión es una
 Despliegue de Pages completado correctamente en la ejecución `42082996340`. Página, CSS, SVG y fuente IBM Plex Sans verificados con HTTP 200 por HTTPS en `briorol.com`. Los tres destinos actuales de los proyectos responden con HTTP 200. `www.briorol.com` redirige a la raíz. Certificado aprobado para ambos nombres.
 
 El acceso HTTP todavía permanece en HTTP y la dirección anterior de GitHub Pages redirige a HTTP, porque Enforce HTTPS está desactivado. La integración no tiene permiso para activar ese ajuste; la instrucción concreta está en `PUBLISHING.md`.
+
+## Prueba de familia
+
+El muestrario `design/family/` se comprobó en Chromium a 320, 390, 768 y 1440 px, sin desbordamiento horizontal y con las imágenes disponibles. Los SVG se parsean y contienen los contornos de las letras sin depender de una fuente instalada ni de recursos externos. Los tres Brío comparten tamaño de dibujo y los nombres independientes se comparan con la misma altura. Las capturas corresponden a una prueba de identidad, no a modificaciones de los productos publicados.

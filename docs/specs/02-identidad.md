@@ -31,3 +31,9 @@ La primera ampliación del logotipo concatena BRÍO y ROL con el mismo peso y pr
 - Los SVG no dependen de fuentes o recursos externos para dibujarse.
 
 La decisión final de identidad sigue pendiente de valorar el resultado gráfico.
+
+## Prueba de arquitectura de familia
+
+La siguiente exploración compara cinco firmas: Brío / rol, Brío / sistema, Brío / salas, ruido / by Brío y dados / by Brío. Se respetan las minúsculas de los descriptores y los nombres independientes.
+
+La prueba debe permitir valorar dos relaciones: proyectos encabezados por la marca Brío y herramientas con nombre propio que muestran su origen. Las proporciones de la firma de origen y de los descriptores tienen reglas comunes. No se da por cerrada la arquitectura hasta revisar el conjunto dibujado. Dados es una exploración futura; la prueba no anuncia su disponibilidad ni cambia los nombres o destinos publicados.

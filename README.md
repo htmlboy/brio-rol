@@ -6,15 +6,14 @@ Landing temporal publicada en **https://briorol.com/**.
 
 Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Sistema Brío, Sala —nombre propuesto de la aplicación de juego compartido— y Ruido.
 
-## Revisión del logotipo
+## Prueba de familia de marca
 
-La recomendación actual conserva el dibujo de Brío y subordina ROL, con versiones principal, compacta, inversa y reducida. No se han sustituido todavía los assets de las páginas.
+La exploración actual compara Brío / rol, Brío / sistema y Brío / salas con ruido / by Brío y dados / by Brío. Es una prueba gráfica; la web temporal y los productos conservan sus nombres y logotipos publicados.
 
-- [Muestrario de identidad](design/identity/index.html), accesible en `/design/identity/` al servir el sitio.
-- [Diagnóstico y recomendación](docs/IDENTITY-REVIEW.md).
-- [Comparación de las propuestas](design/identity/previews/comparison.png).
-- [Firma compacta e inicial](design/identity/previews/reduction.png).
-- [SVG principal recomendado](design/identity/b-signature.svg).
+- [Lámina de los cinco casos](design/family/previews/family-desktop.png).
+- [Muestrario navegable](design/family/index.html), accesible en `/design/family/` al servir esta rama.
+- [Arquitectura, proporciones y procedencia](docs/BRAND-ARCHITECTURE.md).
+- [Revisión anterior del logotipo](docs/IDENTITY-REVIEW.md).
 
 ## Ver la propuesta
 

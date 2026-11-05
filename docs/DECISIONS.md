@@ -59,3 +59,11 @@ Fecha: 2026-11-05. Estado: publicada y verificada.
 Se publica una landing temporal desde `main`, con un workflow de GitHub Pages independiente del estudio gráfico. Se conserva la portada breve y se usa «Juego online» hasta cerrar el nombre de esa aplicación. Los destinos siguen siendo los publicados actualmente. El dominio `briorol.com`, sus recursos y la redirección desde `www` se verifican por HTTPS; queda activar la redirección obligatoria de HTTP en la configuración de Pages.
 
 Se incorpora `main` a la rama de diseño para que la propuesta pendiente conserve la configuración de publicación y el índice temporal. El estudio del logotipo sigue disponible en el PR sin quedar adoptado por esta publicación.
+
+## D-010 — Prueba de familia con dos relaciones de marca
+
+Fecha: 2026-11-05. Estado: exploración gráfica para revisión.
+
+Se compara Brío como nombre principal con los descriptores en minúsculas rol, sistema y salas, y dos herramientas con nombre propio: ruido y dados, firmadas con by Brío. Los descriptores comparten escala y anclaje derecho; los nombres independientes comparten construcción y altura de dibujo. La firma de origen se subordina al nombre de la herramienta.
+
+La prueba usa el Brío original, descriptores en Plex Sans convertidos a contornos y nombres independientes dibujados como parte de la exploración. Se entregan positivos, negativos y variantes de nombre solo. No se renombra la aplicación publicada, no se anuncia Dados como disponible y no se sustituyen los logos de la web temporal. Referencia: `BRAND-ARCHITECTURE.md`.

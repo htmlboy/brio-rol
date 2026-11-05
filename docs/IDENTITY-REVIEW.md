@@ -1,6 +1,6 @@
 # Brío Rol — Revisión del logotipo
 
-Estado: propuesta para revisión. Se trabaja en el signo y sus proporciones; no se modifican las aplicaciones ni la landing.
+Estado: exploración anterior. La prueba de familia actual está en [BRAND-ARCHITECTURE.md](BRAND-ARCHITECTURE.md) y `design/family/`. Se trabaja en el signo y sus proporciones; no se modifican las aplicaciones ni la landing.
 
 ## Diagnóstico
 
