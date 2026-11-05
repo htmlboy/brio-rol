@@ -139,3 +139,9 @@ Fecha: 2026-11-05. Estado: implementada; publicación mediante el PR #6.
 Se eliminan las líneas del encabezado, el listado y el pie. La portada usa tres columnas en escritorio y una lista con logo y texto en móvil; el espacio, la alineación y la tipografía distinguen los proyectos. Se mantienen los nombres, descripciones y destinos. La flecha se integra en el título enlazado y sustituye el «Abrir» repetido. No se añaden tarjetas, fondos de color ni sombras para reemplazar los bordes. Las capturas vigentes se actualizan tras comprobar la composición.
 
 La revisión del directorio se comprueba a cinco anchuras, con destinos de enlace, carga de logos y navegación con teclado. El cambio queda en el PR #6; las capturas de escritorio y móvil acompañan estas specs.
+
+## D-021 — Aplicación de la familia a Ruido
+
+Fecha: 2026-11-05. Estado: implementación preparada para publicación.
+
+Ruido adopta su maestro independiente y Plex local. La herramienta conserva el fondo oscuro con tonos cálidos y el rojo de familia adaptado a su contraste. Se reducen marcos redundantes, se adapta la cabecera móvil y se enlaza Brío por separado en el pie. Se conservan las ilustraciones de escenas, la biblioteca, la mezcla y el audio. La especificación detallada y las capturas están en el repo Ruido, `docs/FAMILY-IDENTITY.md` y `docs/previews/`.

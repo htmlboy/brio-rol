@@ -17,7 +17,7 @@ Llevar la familia de logos aceptada a las páginas reales. Sistema sirve como pr
 
 ## Aplicación por producto
 
-Brío Rol muestra las firmas en el directorio, manteniendo sus descripciones y destinos. Dados no se anuncia como herramienta disponible. Sistema presenta las reglas como una publicación: portada, lectura y materiales. La revisión de presentación no cambia las mecánicas ni rediseña los PDFs. Online conserva por ahora el diseño de las salas y sus temas; el nuevo SVG hereda el color del contexto. Ruido se abordará a partir de la validación de esta primera aplicación, sin modificar aún su interfaz.
+Brío Rol muestra las firmas en el directorio, manteniendo sus descripciones y destinos. Dados no se anuncia como herramienta disponible. Sistema presenta las reglas como una publicación: portada, lectura y materiales. La revisión de presentación no cambia las mecánicas ni rediseña los PDFs. Online conserva por ahora el diseño de las salas y sus temas; el nuevo SVG hereda el color del contexto. Ruido aplica su logo independiente, Plex local y una variante oscura cálida con acentos de la familia de rojo. Conserva las ilustraciones, la biblioteca y la mesa de mezcla; Brío aparece como procedencia separada en el pie.
 
 ## Revisión
 
