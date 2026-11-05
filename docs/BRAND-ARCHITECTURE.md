@@ -1,6 +1,6 @@
 # Familia Brío — Logotipos y uso
 
-Estado: refinamiento gráfico de la dirección de familia elegida por el autor. Esta entrega no modifica las webs ni despliega cambios.
+Estado: familia gráfica elegida; primera aplicación a las webs en revisión. Ver `specs/03-family-web.md`.
 
 ## Los cinco logotipos
 
@@ -49,4 +49,4 @@ Los doce SVG canónicos están directamente en `design/family/`: positivo y nega
 - `design/family/previews/family-sizes.png`: tamaños reales.
 - `design/family/previews/web-origin.png`: firma web separada.
 
-`archive/by-brio/` conserva las anteriores firmas integradas y `archive/salas/` la denominación anterior. No forman parte de los archivos canónicos. Las páginas y logos publicados permanecen sin cambios en esta entrega.
+`archive/by-brio/` conserva las anteriores firmas integradas y `archive/salas/` la denominación anterior. No forman parte de los archivos canónicos. La primera aplicación se prepara en Sistema y en el directorio Brío Rol; Online recibe su firma. El estado de publicación se documenta por separado.

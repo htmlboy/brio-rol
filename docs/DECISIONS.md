@@ -111,3 +111,9 @@ Las direcciones antiguas se redirigirán mediante sitios Fully Hosted y certific
 Fecha: 2026-11-05. Estado: configuración preparada.
 
 Se descarta el hosting de DreamHost para los dominios antiguos. La alternativa gratuita usa la zona antigua en Cloudflare, DNS proxied para los tres hosts y dos Single Redirects 301 que conservan rutas y consultas. Las aplicaciones permanecen en GitHub Pages. El cambio de nameservers y la activación de las reglas deben realizarse en las cuentas del titular; no se han ejecutado desde la integración.
+
+## D-017 — Aplicar la familia a Sistema y al directorio
+
+Fecha: 2026-11-05. Estado: propuesta implementada, revisión visual en curso.
+
+Se recuperan los SVG finales de la familia y se aplican al directorio Brío Rol, Sistema y la firma de Online. Sistema es la primera aplicación completa: composición editorial de reglas, tipografía local, papel, tinta y rojo, con ilustración vectorial propia en lugar de renders de géneros distintos. Se mantienen las mecánicas, los PDFs y la interfaz de las salas. Ruido queda como siguiente aplicación, una vez contrastada esta dirección. Referencia: `specs/03-family-web.md`.
