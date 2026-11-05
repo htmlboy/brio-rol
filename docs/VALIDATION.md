@@ -34,3 +34,9 @@ Estas parejas superan 4,5:1 para texto normal. Esto no constituye una auditoría
 - Publicación y comprobación de DNS, certificado y redirección de `www`, según `PUBLISHING.md`.
 
 Las capturas son del prototipo local. Sistema sigue siendo una propuesta dentro de este repositorio; no modifica sus reglas, su repositorio ni su sitio publicado.
+
+## Revisión específica del logotipo
+
+El muestrario `design/identity/` se revisó en Chromium a 320, 390, 768 y 1440 px, sin desbordamiento horizontal y con imágenes disponibles. Las firmas se compararon en una tinta, en negativo y a 120/160 px; la inicial se revisó a 16/24/32 px. Los SVG se parsearon y se comprobó que las firmas no dependen de fuentes, imágenes ni recursos externos.
+
+Las capturas actuales están en `design/identity/previews/`. La revisión es una exploración gráfica: no acredita reconocimiento de marca por terceros, registro de marca ni resultados de impresión física.

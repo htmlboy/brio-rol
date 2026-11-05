@@ -43,3 +43,11 @@ Fecha: 2026-11-05. Estado: propuesta revisada tras valoración de diseño.
 La landing se reduce a una presentación breve, tres accesos descriptivos, el estado de los módulos y el contacto del autor. Se retiran el hero ilustrado, el titular publicitario, los números de proyecto, las etiquetas redundantes y los bloques de autopresentación repetida. Se conserva el logotipo, la paleta y la tipografía de lectura. La tipografía condensada se reserva para usos que la necesiten; no debe convertir todos los encabezados en reclamos.
 
 La propuesta de Sistema sigue el mismo criterio: una portada orientada a reglas y consulta, sin una cubierta de manual ficticia. El índice y los ejemplos de reglas son contenido navegable, no decoración.
+
+## D-008 — Logotipo: continuidad con jerarquía
+
+Fecha: 2026-11-05. Estado: recomendación gráfica pendiente de valoración.
+
+La revisión específica del logotipo recomienda conservar el dibujo original de Brío, con ROL dibujado a aproximadamente un tercio de su altura y alineado con su base. Se definen firma horizontal, compacta y versiones inversas. La B extraída sirve como inicial; para usos pequeños tiene un maestro de contraformas abiertas.
+
+Un redibujo más regular se conserva como exploración descartada por perder singularidad. La recomendación, las pruebas de tamaño y los SVG se recogen en `IDENTITY-REVIEW.md` y `../design/identity/`. Esta entrega no sustituye los assets de la landing ni modifica las aplicaciones.

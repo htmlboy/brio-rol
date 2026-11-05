@@ -1,6 +1,6 @@
 # Brío Rol — Dirección visual revisada
 
-Estado: propuesta para revisión. La landing y el estudio visual son prototipos implementados; no rediseñan las aplicaciones existentes.
+Estado: dirección visual inicial, para revisión. La recomendación actual sobre el logotipo está en [IDENTITY-REVIEW.md](IDENTITY-REVIEW.md) y se presenta en `design/identity/`. Los assets de las páginas siguen conservando la primera propuesta; no se ha aplicado aún la recomendación.
 
 ## Punto de partida
 

@@ -4,6 +4,16 @@ El espacio de proyectos de rol de Javier Usobiaga: módulos, sistemas y herramie
 
 Esta propuesta incluye una landing y un estudio de identidad para una familia de proyectos: Sistema Brío, Sala —nombre propuesto de la aplicación de juego compartido— y Ruido.
 
+## Revisión del logotipo
+
+La recomendación actual conserva el dibujo de Brío y subordina ROL, con versiones principal, compacta, inversa y reducida. No se han sustituido todavía los assets de las páginas.
+
+- [Muestrario de identidad](design/identity/index.html), accesible en `/design/identity/` al servir el sitio.
+- [Diagnóstico y recomendación](docs/IDENTITY-REVIEW.md).
+- [Comparación de las propuestas](design/identity/previews/comparison.png).
+- [Firma compacta e inicial](design/identity/previews/reduction.png).
+- [SVG principal recomendado](design/identity/b-signature.svg).
+
 ## Ver la propuesta
 
 Sitio estático, sin instalación ni compilación:
