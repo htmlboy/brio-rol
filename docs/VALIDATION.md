@@ -56,3 +56,9 @@ El muestrario `design/family/` se comprobó en Chromium a 320, 390, 768 y 1440 p
 Se verifican doce SVG canónicos: cinco logos y Brío sin descriptor, con positivos y negativos. Los archivos de Ruido y Dados no incluyen by Brío; las exploraciones anteriores quedan archivadas. La versión vigente sustituye salas por online.
 
 El muestrario se revisó en Chromium a 320, 390, 768 y 1440 px, con imágenes disponibles y sin desbordamiento. Las capturas de tamaños muestran las firmas Brío a 120 px de ancho y los nombres independientes a 96 px. El paquete `deliverables/brio-logos.zip` contiene los doce SVG, guía de uso y avisos de derechos; se comprobó que sus archivos coinciden con los canónicos.
+
+## Publicación de las aplicaciones en GitHub Pages
+
+Sistema se publicó correctamente en la ejecución 42104574982: siete archivos remotos, incluidas reglas y PDFs, coincidieron con la compilación preparada. Online se publicó en 42107023278 tras repetir una primera publicación bloqueada: 33 archivos remotos coincidieron y el enlace dinámico de sala devolvió el documento de recuperación esperado. La landing con los enlaces nuevos se publicó en 42107357355.
+
+El paquete de DreamHost incluye una guía en español y el archivo .htaccess con excepción para renovación de certificados. La configuración del panel, los certificados y las redirecciones reales de los dominios antiguos quedan pendientes de aplicar en esa cuenta.

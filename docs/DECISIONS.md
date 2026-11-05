@@ -97,3 +97,11 @@ Fecha: 2026-11-05. Estado: migración preparada; configuración de cuenta pendie
 Se sustituye la migración de dominios sobre Netlify por la publicación de ambas aplicaciones en GitHub Pages, con dos repositorios de compilaciones y los dominios sistema.briorol.com y online.briorol.com. El código fuente permanece privado y Firebase continúa como backend. Los CNAME de ambos subdominios apuntarán a htmlboy.github.io. Las instrucciones anteriores con targets netlify.app quedan sustituidas.
 
 La retirada completa de Netlify incluye trasladar la zona DNS antigua y sus redirecciones a un servicio independiente, manteniendo los enlaces antiguos mientras el dominio siga registrado. La integración no puede crear los nuevos repos ni administrar Pages; las compilaciones y comprobaciones se preparan mientras el titular configura esos recursos.
+
+## D-015 — Publicación de Sistema y Online en Pages
+
+Fecha: 2026-11-05. Estado: publicada y verificada.
+
+Sistema y Online sirven sus dominios nuevos desde los repos de compilaciones de GitHub Pages. Las reglas, materiales, recursos y recuperación de rutas se han comprobado; la landing principal enlaza directamente a ambos. Online requirió una revisión nueva para superar un primer despliegue de Pages que agotó el tiempo de espera.
+
+Las direcciones antiguas se redirigirán mediante sitios Fully Hosted y certificados de DreamHost, usando el paquete .htaccess preparado. El cambio de nameservers afecta solo a sistemabrio.com; briorol.com sigue en Cloudflare. La baja de los proyectos de Netlify y su zona antigua se realiza tras comprobar esas redirecciones.

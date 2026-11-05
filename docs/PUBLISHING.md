@@ -57,7 +57,7 @@ La emisión del certificado y la propagación DNS pueden tardar después de guar
 
 ## Sistema y Online: GitHub Pages
 
-Decisión actual: ambos sitios se publicarán también en GitHub Pages, retirando Netlify del alojamiento y de las redirecciones. Las instrucciones anteriores para apuntar los subdominios a Netlify quedan sustituidas.
+Estado actual: ambos sitios están publicados en GitHub Pages y la landing principal enlaza a los dominios nuevos. La retirada de las redirecciones antiguas de Netlify depende de configurar DreamHost. Las instrucciones anteriores para apuntar los subdominios a Netlify quedan sustituidas.
 
 | Sitio | Repositorio de publicación | Dominio de Pages | CNAME en Cloudflare | Target |
 | --- | --- | --- | --- | --- |
@@ -78,11 +78,11 @@ Las páginas conocidas tienen entradas propias; las rutas dinámicas de salas se
 
 Para retirar Netlify conservando las direcciones antiguas, DreamHost servirá únicamente las redirecciones. Las aplicaciones nuevas permanecen en GitHub Pages.
 
-1. Añadir `sistemabrio.com` y `online.sistemabrio.com` como sitios **Fully Hosted**, con carpetas vacías dedicadas. Incluir `www.sistemabrio.com` en el primero. Se necesita un plan que permita alojarlos; la gestión de dominio y DNS por sí sola no atiende HTTPS.
-2. En el registrador de `sistemabrio.com`, cambiar sus nameservers actuales de NS1/Netlify por `ns1.dreamhost.com`, `ns2.dreamhost.com` y `ns3.dreamhost.com`. No cambiar los de `briorol.com`, que sigue en Cloudflare.
-3. Cuando el dominio antiguo resuelva a DreamHost, activar certificados **Let's Encrypt** para ambos sitios y www.
-4. Descargar [el ZIP de redirecciones](../deliverables/dreamhost-redirects.zip), extraerlo y subir su archivo `.htaccess` a la carpeta web de cada sitio antiguo. La guía incluida está en español. La ruta de validación de certificados queda exceptuada para permitir su renovación.
-5. Comprobar que las direcciones antiguas llegan por HTTPS a Sistema u Online en Pages, conservando rutas y consultas. Después se pueden eliminar los dos proyectos de Netlify y su zona DNS antigua.
+1. Añadir `sistemabrio.com` y `online.sistemabrio.com` como sitios **Fully Hosted**, con carpetas vacías dedicadas. Incluir `www.sistemabrio.com` en el primero. Se necesita un plan de alojamiento para atender HTTPS.
+2. Descargar [el ZIP de redirecciones](../deliverables/dreamhost-redirects.zip) y subir su archivo `.htaccess` a la carpeta web de cada sitio antiguo. Mostrar archivos ocultos si hace falta. La validación de certificados queda exceptuada de las redirecciones.
+3. En el registrador de `sistemabrio.com`, sustituir los nameservers de Netlify por `ns1.dreamhost.com`, `ns2.dreamhost.com` y `ns3.dreamhost.com`. `briorol.com` permanece en Cloudflare.
+4. Cuando el dominio antiguo resuelva a DreamHost, activar **Let's Encrypt** para ambos sitios, incluido www, y comprobar las redirecciones por HTTP y HTTPS, con sus rutas y consultas.
+5. Tras esas comprobaciones, eliminar los dos proyectos de Netlify y su zona DNS antigua. Mantener registrado el dominio mientras se necesiten las redirecciones.
 
 No usar la modalidad básica **Redirect** para esta receta: la redirección de las visitas HTTPS requiere alojamiento y certificado en el dominio de origen. No se necesita WordPress ni base de datos en DreamHost.
 
