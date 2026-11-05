@@ -81,3 +81,11 @@ La entrega de esta fase afina proporciones, espaciado y variantes de uso, docume
 Fecha: 2026-11-05. Estado: aceptada.
 
 Se sustituye la exploración salas por online en la familia gráfica. La aplicación utilizará `online.briorol.com`, conservando el término que ya aparece en su dirección original. Sistema mantiene el destino previsto `sistema.briorol.com`. La landing principal en `briorol.com` sigue en GitHub Pages; las dos aplicaciones permanecen en sus sitios de Netlify. La configuración y las redirecciones se preparan en el repositorio correspondiente.
+
+## D-013 — Separar dominio, DNS, alojamiento y redirección
+
+Fecha: 2026-11-05. Estado: documentación de la migración actualizada.
+
+La nueva dirección no cambia el alojamiento de Sistema y Online: ambas aplicaciones siguen en sus proyectos actuales de Netlify. La gestión de DNS y la renovación de un dominio propio son servicios separados. Prescindir de Netlify requiere trasladar antes las aplicaciones y disponer de un servicio que mantenga las redirecciones antiguas con HTTPS. La redirección se pierde al caducar el dominio de origen. No se realiza ninguna baja de alojamiento en esta fase.
+
+La revisión de material publicado queda documentada en `SECURITY-REVIEW.md`, con alcance, resultados y límites; no incluye valores de credenciales.
