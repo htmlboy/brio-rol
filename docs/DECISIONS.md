@@ -142,6 +142,6 @@ La revisión del directorio se comprueba a cinco anchuras, con destinos de enlac
 
 ## D-021 — Aplicación de la familia a Ruido
 
-Fecha: 2026-11-05. Estado: implementación preparada para publicación.
+Fecha: 2026-11-05. Estado: publicada mediante el PR #6 de Ruido.
 
 Ruido adopta su maestro independiente y Plex local. La herramienta conserva el fondo oscuro con tonos cálidos y el rojo de familia adaptado a su contraste. Se reducen marcos redundantes, se adapta la cabecera móvil y se enlaza Brío por separado en el pie. Se conservan las ilustraciones de escenas, la biblioteca, la mezcla y el audio. La especificación detallada y las capturas están en el repo Ruido, `docs/FAMILY-IDENTITY.md` y `docs/previews/`.
