@@ -154,6 +154,6 @@ Se reduce alrededor de una quinta parte el tamaño de los logos de cabecera: Br�
 
 ## D-023 — Presentación breve y catálogo disponible
 
-Fecha: 2026-11-06. Estado: implementación preparada para publicación.
+Fecha: 2026-11-06. Estado: publicada mediante el PR #8.
 
 Se retira la firma duplicada de la esquina superior derecha. El párrafo introductorio queda como «Sistemas, herramientas y módulos de rol, por Javier U». La sección vacía de módulos se elimina y volverá cuando haya material publicado. Se mantienen el título, los tres proyectos disponibles y el contacto por Discord.
