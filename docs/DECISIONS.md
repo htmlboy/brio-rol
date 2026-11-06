@@ -145,3 +145,9 @@ La revisión del directorio se comprueba a cinco anchuras, con destinos de enlac
 Fecha: 2026-11-05. Estado: publicada mediante el PR #6 de Ruido.
 
 Ruido adopta su maestro independiente y Plex local. La herramienta conserva el fondo oscuro con tonos cálidos y el rojo de familia adaptado a su contraste. Se reducen marcos redundantes, se adapta la cabecera móvil y se enlaza Brío por separado en el pie. Se conservan las ilustraciones de escenas, la biblioteca, la mezcla y el audio. La especificación detallada y las capturas están en el repo Ruido, `docs/FAMILY-IDENTITY.md` y `docs/previews/`.
+
+## D-022 — Firmas de cabecera más discretas
+
+Fecha: 2026-11-06. Estado: aplicación en curso.
+
+Se reduce alrededor de una quinta parte el tamaño de los logos de cabecera: Brío Rol 88/72 px, Sistema 94/76 px y Ruido 90/76 px (escritorio/móvil). Online pasa a 96 px en la entrada; la firma de sala, ya compacta a 60 px, se conserva. Se ajusta el espacio vertical de las cabeceras. En Ruido la navegación vuelve a una fila cuando hay anchura suficiente; los controles mantienen sus áreas táctiles. No se altera el dibujo de los maestros.
