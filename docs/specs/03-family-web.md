@@ -40,3 +40,7 @@ Tras revisión del autor, la portada de Sistema se limita a presentación y acce
 El directorio Brío Rol prescinde de separadores por fila, encabezado y pie. Los tres proyectos se presentan en columnas en escritorio y como filas abiertas en móvil. Mantener una jerarquía clara y enlaces reconocibles sin recurrir a bordes o tarjetas.
 
 Directorio sin bordes verificado a 320, 390, 760, 1024 y 1440 px: sin desbordamiento horizontal, logos cargados, destinos conservados y foco de teclado visible. Capturas: [escritorio](../previews/directory-desktop.png) y [móvil](../previews/directory-mobile.png).
+
+## HTML público e hidratación
+
+Sistema y Ruido generan su contenido público en HTML durante el build, usando los mismos componentes. React hidrata los controles en el navegador. La lectura de reglas, materiales y biblioteca no depende de ejecutar JavaScript. Online prepara una capa pública sin renderizar salas ni perfiles; su publicación sigue ligada al cambio de configuración de Firebase pendiente. Brío Rol ya es HTML estático.

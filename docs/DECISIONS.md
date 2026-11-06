@@ -163,3 +163,9 @@ Se retira la firma duplicada de la esquina superior derecha. El párrafo introdu
 Fecha: 2026-11-06. Estado: preparado; requiere actuación del titular antes del despliegue.
 
 La configuración cliente de Online pasa a un archivo generado al desplegar, usando un secreto de Actions del repo `brio-online`. Las compilaciones que se guardan en Git no incluyen la clave; el escáner se mantiene activo y la publicación se bloquea si falta la configuración o contiene datos administrativos. La clave sigue siendo pública en la web y la seguridad de datos depende de Firebase. Se requiere rotación verificada y revocación real de la clave histórica para resolver la alerta existente. Esta decisión sustituye las instrucciones anteriores de secreto de compilación en el repo privado. Ver `SECURITY-REVIEW.md` y el PR #1 de `brio-online`.
+
+## D-025 — Contenido público legible sin JavaScript
+
+Fecha: 2026-11-06. Estado: implementación en verificación para publicación.
+
+El build debe entregar las reglas y demás contenido público en HTML, reutilizando componentes y dejando la interacción a la hidratación. Sistema genera documentos por ruta; Ruido incluye su biblioteca inicial y restaura el guardado del navegador después de hidratar. Se comprueban respuestas HTTP, lectura sin JavaScript y controles tras hidratar. Online no genera HTML con datos personales de salas y su entrega permanece preparada junto al cambio de Firebase que el titular ha pospuesto.
