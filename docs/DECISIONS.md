@@ -157,3 +157,9 @@ Se reduce alrededor de una quinta parte el tamaño de los logos de cabecera: Br�
 Fecha: 2026-11-06. Estado: publicada mediante el PR #8.
 
 Se retira la firma duplicada de la esquina superior derecha. El párrafo introductorio queda como «Sistemas, herramientas y módulos de rol, por Javier U». La sección vacía de módulos se elimina y volverá cuando haya material publicado. Se mantienen el título, los tres proyectos disponibles y el contacto por Discord.
+
+## D-024 — Configuración de Firebase en el artefacto de Pages
+
+Fecha: 2026-11-06. Estado: preparado; requiere actuación del titular antes del despliegue.
+
+La configuración cliente de Online pasa a un archivo generado al desplegar, usando un secreto de Actions del repo `brio-online`. Las compilaciones que se guardan en Git no incluyen la clave; el escáner se mantiene activo y la publicación se bloquea si falta la configuración o contiene datos administrativos. La clave sigue siendo pública en la web y la seguridad de datos depende de Firebase. Se requiere rotación verificada y revocación real de la clave histórica para resolver la alerta existente. Esta decisión sustituye las instrucciones anteriores de secreto de compilación en el repo privado. Ver `SECURITY-REVIEW.md` y el PR #1 de `brio-online`.
