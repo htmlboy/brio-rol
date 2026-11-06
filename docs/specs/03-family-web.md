@@ -44,3 +44,5 @@ Directorio sin bordes verificado a 320, 390, 760, 1024 y 1440 px: sin desbordami
 ## HTML público e hidratación
 
 Sistema y Ruido generan su contenido público en HTML durante el build, usando los mismos componentes. React hidrata los controles en el navegador. La lectura de reglas, materiales y biblioteca no depende de ejecutar JavaScript. Online prepara una capa pública sin renderizar salas ni perfiles; su publicación sigue ligada al cambio de configuración de Firebase pendiente. Brío Rol ya es HTML estático.
+
+Verificación de publicación: Sistema entrega sus tres páginas con contenido HTML y las reglas pueden leerse por HTTP sin JavaScript. Ruido entrega las 54 pistas en el HTML inicial. Se verificaron hidratación, navegación, audio y conservación de datos del navegador. Online permanece preparado en el PR pendiente de configuración de Firebase; su producción actual no cambia en esta entrega.

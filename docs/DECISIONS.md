@@ -166,6 +166,6 @@ La configuración cliente de Online pasa a un archivo generado al desplegar, usa
 
 ## D-025 — Contenido público legible sin JavaScript
 
-Fecha: 2026-11-06. Estado: implementación en verificación para publicación.
+Fecha: 2026-11-06. Estado: Sistema y Ruido publicados; Online preparado y pendiente del cambio de Firebase.
 
 El build debe entregar las reglas y demás contenido público en HTML, reutilizando componentes y dejando la interacción a la hidratación. Sistema genera documentos por ruta; Ruido incluye su biblioteca inicial y restaura el guardado del navegador después de hidratar. Se comprueban respuestas HTTP, lectura sin JavaScript y controles tras hidratar. Online no genera HTML con datos personales de salas y su entrega permanece preparada junto al cambio de Firebase que el titular ha pospuesto.
