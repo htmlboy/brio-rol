@@ -151,3 +151,9 @@ Ruido adopta su maestro independiente y Plex local. La herramienta conserva el f
 Fecha: 2026-11-06. Estado: publicado en los cuatro sitios.
 
 Se reduce alrededor de una quinta parte el tamaño de los logos de cabecera: Brío Rol 88/72 px, Sistema 94/76 px y Ruido 90/76 px (escritorio/móvil). Online pasa a 96 px en la entrada; la firma de sala, ya compacta a 60 px, se conserva. Se ajusta el espacio vertical de las cabeceras. En Ruido la navegación vuelve a una fila cuando hay anchura suficiente; los controles mantienen sus áreas táctiles. No se altera el dibujo de los maestros.
+
+## D-023 — Presentación breve y catálogo disponible
+
+Fecha: 2026-11-06. Estado: implementación preparada para publicación.
+
+Se retira la firma duplicada de la esquina superior derecha. El párrafo introductorio queda como «Sistemas, herramientas y módulos de rol, por Javier U». La sección vacía de módulos se elimina y volverá cuando haya material publicado. Se mantienen el título, los tres proyectos disponibles y el contacto por Discord.

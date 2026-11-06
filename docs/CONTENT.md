@@ -6,7 +6,7 @@ Estado: propuesta revisada. Los textos vigentes están en `index.html`.
 
 Título: **Proyectos de rol**.
 
-«Soy Javier U. Este es mi espacio para publicar sistemas, herramientas y módulos de rol.»
+«Sistemas, herramientas y módulos de rol, por Javier U»
 
 ## Proyectos disponibles
 
@@ -18,9 +18,7 @@ Cada fila enlaza directamente a su proyecto. El nombre de la aplicación es Brí
 
 ## Módulos
 
-«Aquí publicaré mis módulos de rol. Todavía no hay ninguno disponible en esta web.»
-
-Cuando se publique el primero, este texto dará paso a un índice con títulos, premisas, compatibilidad, formatos, créditos y acceso reales. No se inventan fechas, portadas ni descargas.
+La sección no se muestra mientras no haya material publicado. Cuando exista el primero, añadir un índice con títulos, premisas, compatibilidad, formatos, créditos y acceso reales.
 
 ## Contacto
 
@@ -28,6 +26,6 @@ Firma pública: **Javier U**. Contacto por Discord: **javier_u**. No se publica 
 
 ## Criterio editorial
 
-Primera persona donde identifica al autor. Descripciones breves y concretas para distinguir proyectos. El visitante debe entender qué puede abrir y encontrar el acceso rápidamente. La landing no necesita eslóganes, numeraciones, una sección repetida de autor ni una ilustración para contar que existen tres herramientas.
+La autoría se incluye en el párrafo introductorio; no se repite en la cabecera. Descripciones breves y concretas para distinguir proyectos. El visitante debe entender qué puede abrir y encontrar el acceso rápidamente. La landing no necesita eslóganes, numeraciones, una sección repetida de autor ni una ilustración para contar que existen tres herramientas.
 
 Los textos de la primera composición se sustituyen; las capturas vigentes corresponden a esta revisión.
