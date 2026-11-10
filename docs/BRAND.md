@@ -6,7 +6,7 @@ Estado: dirección visual inicial, para revisión. La prueba de arquitectura act
 
 La identidad actual de Sistema Brío tiene un logotipo condensado, de trazos gruesos, con un dado de un punto integrado sobre la «i». Esa relación entre letra y objeto es más específica que la presentación de su landing: titulares centrados, degradado violeta, ilustraciones de fantasía y ciencia ficción y botones de llamada a la acción.
 
-Se revisaron el SVG original y los componentes, estilos y contenidos de `htmlboy/brio/apps/landing`, junto a la página pública de [Sistema Brío](https://sistemabrio.com/). Las capturas de `docs/previews/` corresponden al nuevo prototipo.
+Se revisaron el SVG original y los componentes, estilos y contenidos de `htmlboy/brio-source/apps/landing`, junto a la página pública de [Sistema Brío](https://sistemabrio.com/). Las capturas de `docs/previews/` corresponden al nuevo prototipo.
 
 ## Dirección propuesta
 
