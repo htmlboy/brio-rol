@@ -4,7 +4,7 @@ Fecha: 2026-11-05.
 
 ## Alcance
 
-- Repositorios públicos `htmlboy/briorol` y `htmlboy/ruido`: archivos actuales y todo el historial accesible de ramas y referencias de PR, incluidos PR cerrados.
+- Repositorios públicos `htmlboy/brio-rol` y `htmlboy/brio-ruido`: archivos actuales y todo el historial accesible de ramas y referencias de PR, incluidos PR cerrados.
 - Archivos comprimidos encontrados en el historial, incluido el ZIP de logotipos.
 - Catorce archivos públicos descargados de Brío Rol, Ruido, Sistema y Online: HTML, CSS, JavaScript y mapas de fuentes propios cuando estaban disponibles.
 - Inventario de nombres de archivo sensibles en los repositorios y de los recursos públicos de las aplicaciones.
