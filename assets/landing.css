@@ -72,9 +72,6 @@ img {
   outline:3px solid var(--accent);
   outline-offset:5px;
 }
-.projects li+li {
-  border-top:1px solid #d9d5cb;
-}
 .title h1 {
   font-size:42px;
   letter-spacing:-.035em;
@@ -161,9 +158,6 @@ header {
 }
 .title p {
   max-width:33ch;
-}
-.projects li:last-child {
-  border-bottom:1px solid #d9d5cb;
 }
 footer {
   margin-left:510px;
