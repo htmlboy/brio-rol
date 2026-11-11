@@ -1,5 +1,13 @@
-# Validación de la landing temporal
+# Validación del directorio ilustrado
 
-El índice se basa en la portada breve revisada en Chromium a cinco anchos, desde 320 hasta 1440 px. La publicación temporal conserva el diseño y cambia el nombre provisional de la aplicación por la descripción «Juego online».
+Revisión en Chromium a 1440, 768, 390 y 320 px:
 
-Antes de publicar se comprueban los recursos, enlaces y formato de la página. Después se verifican la página y los recursos reales por HTTPS, el dominio personalizado y los destinos de los tres proyectos. El resultado del despliegue queda registrado en GitHub Actions.
+- Sin desbordamiento horizontal; imágenes y fuentes locales cargadas.
+- Los tres destinos originales se conservan.
+- Flechas SVG de Feather, sin caracteres Unicode como iconos.
+- Los logos identifican los proyectos sin duplicar sus nombres visibles.
+- En móvil el catálogo precede al grabado.
+- El enlace de salto al contenido es accesible con teclado.
+- Añadir una cuarta fila conserva la estructura y no causa desbordamiento.
+
+La publicación se realiza desde los archivos HTML/CSS fuente del repositorio; no existe un paso de compilación. Después del despliegue se comprueban por HTTPS el HTML, los estilos y el grabado frente a los archivos locales.

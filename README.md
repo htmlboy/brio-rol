@@ -1,10 +1,10 @@
 # Brío Rol
 
-Landing temporal del espacio de proyectos de rol de Javier U.
+Índice de proyectos de rol de Javier U.
 
 **https://briorol.com/**
 
-Incluye enlaces a Sistema Brío, la aplicación de juego online y Ruido, además del estado de futuras publicaciones y el contacto del autor.
+Incluye enlaces a Sistema Brío, Brío Online y Ruido, además del contacto del autor.
 
 ## Desarrollo
 
@@ -18,7 +18,7 @@ python -m http.server 4174
 
 El workflow `.github/workflows/pages.yml` publica automáticamente `main` en GitHub Pages. Solo se incluyen la web, sus recursos y los avisos de derechos en el artefacto. El dominio está declarado en `CNAME`.
 
-La identidad gráfica es provisional. El estudio del logotipo y las propuestas de diseño continúan en un PR independiente; esta publicación no aprueba esos diseños ni cambia los otros proyectos.
+La composición combina un grabado de dominio público de Grandville con un catálogo de proyectos en filas. En móvil, el catálogo precede al grabado. Los nombres aparecen en los logos y las flechas son iconos SVG de Feather. Añadir proyectos amplía el catálogo sin cambiar su estructura.
 
 ## Derechos
 

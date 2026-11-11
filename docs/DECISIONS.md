@@ -17,3 +17,9 @@ La publicación se realiza desde `main` mediante GitHub Actions y GitHub Pages, 
 Date: 2026-11-05. Status: prepared; merge after both new custom domains are live.
 
 The project index links directly to sistema.briorol.com and online.briorol.com. This avoids relying on the old domain or Netlify redirects. The landing itself remains on its existing GitHub Pages publication.
+
+## D-004 — Illustrated project directory
+
+Date: 2026-11-11. Status: approved for publication.
+
+The directory uses Grandville's public-domain *A Juggler of Worlds* as a lateral frontispiece on desktop. The introduction and project list share one column. On mobile the project links precede the illustration. Project logos identify the links without duplicate visible names. Each new project adds a row; no project-specific palette or fixed three-column layout is required. External arrows use Feather SVG paths, matching Sistema's icon family. The image provenance and icon license are recorded in THIRD_PARTY_NOTICES.md.
